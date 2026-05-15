@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CTI Intelligence Dashboard</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>" />
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-left">
+      <span class="shield-icon">🛡</span>
+      <div>
+        <h1>CTI Intelligence Dashboard</h1>
+        <p class="tagline">Aggregated Cyber Threat Intelligence · Auto-updates every 15 min</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <span id="last-updated" class="last-updated">Loading…</span>
+      <button id="refresh-btn" class="btn-refresh" title="Refresh now">
+        <span id="refresh-icon">↻</span> Refresh
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Ticker ─────────────────────────────────────────── -->
+  <div class="ticker-wrap">
+    <span class="ticker-label">LIVE</span>
+    <div class="ticker-track">
+      <span id="ticker-content" class="ticker-content">Loading threat indicators…</span>
+    </div>
+  </div>
+
+  <!-- ── Stats bar ──────────────────────────────────────── -->
+  <section class="stats-bar" id="stats-bar">
+    <div class="stat-card loading" data-key="cisa_kev">
+      <div class="stat-icon">🚨</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-cisa">—</div>
+        <div class="stat-label">CISA KEV</div>
+      </div>
+      <div class="stat-status" id="status-cisa"></div>
+    </div>
+    <div class="stat-card loading" data-key="urlhaus">
+      <div class="stat-icon">🔗</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-urlhaus">—</div>
+        <div class="stat-label">Malware URLs</div>
+      </div>
+      <div class="stat-status" id="status-urlhaus"></div>
+    </div>
+    <div class="stat-card loading" data-key="malwarebazaar">
+      <div class="stat-icon">🦠</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-malwarebazaar">—</div>
+        <div class="stat-label">Malware Samples</div>
+      </div>
+      <div class="stat-status" id="status-malwarebazaar"></div>
+    </div>
+    <div class="stat-card loading" data-key="threatfox">
+      <div class="stat-icon">🎯</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-threatfox">—</div>
+        <div class="stat-label">IOCs (24h)</div>
+      </div>
+      <div class="stat-status" id="status-threatfox"></div>
+    </div>
+    <div class="stat-card loading" data-key="feodo">
+      <div class="stat-icon">🕸</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-feodo">—</div>
+        <div class="stat-label">C2 IPs</div>
+      </div>
+      <div class="stat-status" id="status-feodo"></div>
+    </div>
+    <div class="stat-card loading" data-key="nvd">
+      <div class="stat-icon">🔓</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-nvd">—</div>
+        <div class="stat-label">New CVEs</div>
+      </div>
+      <div class="stat-status" id="status-nvd"></div>
+    </div>
+    <div class="stat-card loading" data-key="otx">
+      <div class="stat-icon">👁</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-otx">—</div>
+        <div class="stat-label">OTX Pulses</div>
+      </div>
+      <div class="stat-status" id="status-otx"></div>
+    </div>
+    <div class="stat-card loading" data-key="virustotal">
+      <div class="stat-icon">🔬</div>
+      <div class="stat-body">
+        <div class="stat-value" id="stat-vt">—</div>
+        <div class="stat-label">VT Threats</div>
+      </div>
+      <div class="stat-status" id="status-vt"></div>
+    </div>
+  </section>
+
+  <!-- ── Tabs ───────────────────────────────────────────── -->
+  <nav class="tab-nav" id="tab-nav">
+    <button class="tab-btn active" data-tab="cisa_kev">CISA KEV</button>
+    <button class="tab-btn" data-tab="urlhaus">URLhaus</button>
+    <button class="tab-btn" data-tab="malwarebazaar">MalwareBazaar</button>
+    <button class="tab-btn" data-tab="threatfox">ThreatFox</button>
+    <button class="tab-btn" data-tab="feodo">Feodo C2</button>
+    <button class="tab-btn" data-tab="nvd">NVD CVE</button>
+    <button class="tab-btn" data-tab="otx">AlienVault OTX</button>
+    <button class="tab-btn" data-tab="virustotal">VirusTotal</button>
+  </nav>
+
+  <!-- ── Source info banner ─────────────────────────────── -->
+  <div class="source-info" id="source-info"></div>
+
+  <!-- ── Table container ────────────────────────────────── -->
+  <main class="table-container">
+    <div id="table-area">
+      <div class="loading-spinner">
+        <div class="spinner"></div>
+        <p>Fetching threat intelligence…</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <span>Sources: CISA · Abuse.ch · NIST NVD · AlienVault OTX · VirusTotal</span>
+    <span id="next-refresh">Next refresh in <span id="countdown">5:00</span></span>
+  </footer>
+
+  <!-- ── Toast ──────────────────────────────────────────── -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
