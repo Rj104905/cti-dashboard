@@ -1,21 +1,11 @@
 {
-  "generated_at": "2026-05-20T17:31:04.127728+00:00",
+  "generated_at": "2026-05-20T19:53:39.500125+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
       "count": 1599,
       "items": [
-        {
-          "id": "CVE-2010-0249",
-          "vendor": "Microsoft",
-          "product": "Internet Explorer",
-          "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-          "date_added": "2026-06-03",
-          "due_date": "2026-06-03",
-          "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-se",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
         {
           "id": "CVE-2008-4250",
           "vendor": "Microsoft",
@@ -44,6 +34,16 @@
           "date_added": "2026-05-20",
           "due_date": "2026-06-03",
           "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
+        {
+          "id": "CVE-2010-0249",
+          "vendor": "Microsoft",
+          "product": "Internet Explorer",
+          "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+          "date_added": "2026-05-20",
+          "due_date": "2026-06-03",
+          "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-se",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         },
         {
@@ -257,7 +257,7 @@
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-05-20T17:31:04.276714+00:00",
+      "last_updated": "2026-05-20T19:53:39.639336+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-05-20T17:31:04.677031+00:00"
+      "last_updated": "2026-05-20T19:53:40.066727+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-20T17:31:05.078259+00:00"
+      "last_updated": "2026-05-20T19:53:40.488658+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-20T17:31:05.501286+00:00"
+      "last_updated": "2026-05-20T19:53:40.908521+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-05-20T17:31:05.679102+00:00"
+      "last_updated": "2026-05-20T19:53:41.191123+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 351809,
+      "total": 351813,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-05-20T17:31:05.900553+00:00",
+      "last_updated": "2026-05-20T19:53:41.342934+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-20T17:31:05.900632+00:00"
+      "last_updated": "2026-05-20T19:53:41.343012+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-20T17:31:05.900638+00:00"
+      "last_updated": "2026-05-20T19:53:41.343017+00:00"
     }
   }
 }
