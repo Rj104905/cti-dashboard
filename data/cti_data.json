@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-05-22T17:22:20.864059+00:00",
+  "generated_at": "2026-05-22T19:09:14.988694+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1601,
+      "count": 1602,
       "items": [
+        {
+          "id": "CVE-2026-9082",
+          "vendor": "Drupal",
+          "product": "Core",
+          "name": "Drupal Core SQL Injection Vulnerability",
+          "date_added": "2026-05-22",
+          "due_date": "2026-05-27",
+          "description": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2025-34291",
           "vendor": "Langflow",
@@ -245,19 +255,9 @@
           "due_date": "2026-05-06",
           "description": "Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-20122",
-          "vendor": "Cisco",
-          "product": "Catalyst SD-WAN Manger",
-          "name": "Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability",
-          "date_added": "2026-04-20",
-          "due_date": "2026-04-23",
-          "description": "Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on the local",
-          "action": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHu"
         }
       ],
-      "last_updated": "2026-05-22T17:22:21.002875+00:00",
+      "last_updated": "2026-05-22T19:09:15.142303+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-05-22T17:22:21.643485+00:00"
+      "last_updated": "2026-05-22T19:09:15.461043+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-22T17:22:22.215204+00:00"
+      "last_updated": "2026-05-22T19:09:15.769387+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-22T17:22:22.926503+00:00"
+      "last_updated": "2026-05-22T19:09:16.124603+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-05-22T17:22:23.172712+00:00"
+      "last_updated": "2026-05-22T19:09:16.273404+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 352097,
+      "total": 352109,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-05-22T17:22:23.820421+00:00",
+      "last_updated": "2026-05-22T19:09:17.892655+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-22T17:22:23.820507+00:00"
+      "last_updated": "2026-05-22T19:09:17.892755+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-22T17:22:23.820513+00:00"
+      "last_updated": "2026-05-22T19:09:17.892762+00:00"
     }
   }
 }
