@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-05-27T14:02:08.874847+00:00",
+  "generated_at": "2026-05-27T17:32:01.453754+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1603,
+      "count": 1606,
       "items": [
+        {
+          "id": "CVE-2026-48027",
+          "vendor": "Nx",
+          "product": "Nx Console",
+          "name": "Nx Console Embedded Malicious Code Vulnerability",
+          "date_added": "2026-05-27",
+          "due_date": "2026-06-10",
+          "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
+        {
+          "id": "CVE-2026-45321",
+          "vendor": "TanStack",
+          "product": "TanStack",
+          "name": "TanStack Unspecified Vulnerability",
+          "date_added": "2026-05-27",
+          "due_date": "2026-06-10",
+          "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
+        {
+          "id": "CVE-2026-8398",
+          "vendor": "Daemon",
+          "product": "Daemon Tools Lite",
+          "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+          "date_added": "2026-05-27",
+          "due_date": "2026-05-30",
+          "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2026-48172",
           "vendor": "LiteSpeed",
@@ -225,39 +255,9 @@
           "due_date": "2026-05-08",
           "description": "Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2024-57728",
-          "vendor": "SimpleHelp ",
-          "product": "SimpleHelp",
-          "name": "SimpleHelp Path Traversal Vulnerability",
-          "date_added": "2026-04-24",
-          "due_date": "2026-05-08",
-          "description": "SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited to execute arbitrary code on the host in the conte",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2024-57726",
-          "vendor": "SimpleHelp ",
-          "product": "SimpleHelp",
-          "name": "SimpleHelp Missing Authorization Vulnerability",
-          "date_added": "2026-04-24",
-          "due_date": "2026-05-08",
-          "description": "SimpleHelp contains a missing authorization vulnerability that could allow low-privileged technicians to create API keys with excessive permissions. These API keys can be used to escalate privileges to the server admin role.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-39987",
-          "vendor": "Marimo",
-          "product": "Marimo",
-          "name": "Marimo Remote Code Execution Vulnerability",
-          "date_added": "2026-04-23",
-          "due_date": "2026-05-07",
-          "description": "Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-05-27T14:02:08.959109+00:00",
+      "last_updated": "2026-05-27T17:32:01.566716+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-05-27T14:02:09.606415+00:00"
+      "last_updated": "2026-05-27T17:32:02.013298+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-27T14:02:10.182385+00:00"
+      "last_updated": "2026-05-27T17:32:02.228391+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-27T14:02:10.455780+00:00"
+      "last_updated": "2026-05-27T17:32:02.404511+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-05-27T14:02:10.686395+00:00"
+      "last_updated": "2026-05-27T17:32:02.600827+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 353002,
+      "total": 353402,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-05-27T14:02:11.543759+00:00",
+      "last_updated": "2026-05-27T17:32:02.760197+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-27T14:02:11.543837+00:00"
+      "last_updated": "2026-05-27T17:32:02.760276+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-27T14:02:11.543843+00:00"
+      "last_updated": "2026-05-27T17:32:02.760281+00:00"
     }
   }
 }
