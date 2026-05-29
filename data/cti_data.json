@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-05-29T17:00:44.611084+00:00",
+  "generated_at": "2026-05-29T19:39:23.899331+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1606,
+      "count": 1607,
       "items": [
+        {
+          "id": "CVE-2026-0257",
+          "vendor": "Palo Alto Networks",
+          "product": "PAN-OS",
+          "name": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
+          "date_added": "2026-05-29",
+          "due_date": "2026-06-01",
+          "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2026-48027",
           "vendor": "Nx",
@@ -245,19 +255,9 @@
           "due_date": "2026-05-08",
           "description": "D-Link DIR-823X contains a command injection vulnerability that allows an authorized attacker to execute arbitrary commands on remote devices by sending a POST request to /goform/set_prohibiting via the corresponding function. The impacted product co",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2024-7399",
-          "vendor": "Samsung",
-          "product": "MagicINFO 9 Server",
-          "name": "Samsung MagicINFO 9 Server Path Traversal Vulnerability",
-          "date_added": "2026-04-24",
-          "due_date": "2026-05-08",
-          "description": "Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-05-29T17:00:44.873676+00:00",
+      "last_updated": "2026-05-29T19:39:24.022430+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-05-29T17:00:45.519777+00:00"
+      "last_updated": "2026-05-29T19:39:24.442572+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-29T17:00:46.006905+00:00"
+      "last_updated": "2026-05-29T19:39:24.772085+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-05-29T17:00:46.503188+00:00"
+      "last_updated": "2026-05-29T19:39:24.925718+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-05-29T17:00:46.700908+00:00"
+      "last_updated": "2026-05-29T19:39:25.203390+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 354210,
+      "total": 354275,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-05-29T17:00:46.956320+00:00",
+      "last_updated": "2026-05-29T19:39:25.298858+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-29T17:00:46.956399+00:00"
+      "last_updated": "2026-05-29T19:39:25.298926+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-05-29T17:00:46.956405+00:00"
+      "last_updated": "2026-05-29T19:39:25.298931+00:00"
     }
   }
 }
