@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-06-02T14:54:05.668077+00:00",
+  "generated_at": "2026-06-02T18:29:25.980840+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1608,
+      "count": 1610,
       "items": [
+        {
+          "id": "CVE-2022-0492",
+          "vendor": "Linux",
+          "product": "Kernel",
+          "name": "Linux Kernel Improper Authentication Vulnerability",
+          "date_added": "2026-06-02",
+          "due_date": "2026-06-05",
+          "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
+        {
+          "id": "CVE-2025-48595",
+          "vendor": "Android",
+          "product": "Framework",
+          "name": "Android Framework Integer Overflow Vulnerability",
+          "date_added": "2026-06-02",
+          "due_date": "2026-06-05",
+          "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2024-21182",
           "vendor": "Oracle",
@@ -235,29 +255,9 @@
           "due_date": "2026-05-03",
           "description": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2024-1708",
-          "vendor": "ConnectWise",
-          "product": "ScreenConnect",
-          "name": "ConnectWise ScreenConnect Path Traversal Vulnerability",
-          "date_added": "2026-04-28",
-          "due_date": "2026-05-12",
-          "description": "ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-32202",
-          "vendor": "Microsoft",
-          "product": "Windows",
-          "name": "Microsoft Windows Protection Mechanism Failure Vulnerability",
-          "date_added": "2026-04-28",
-          "due_date": "2026-05-12",
-          "description": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-02T14:54:05.770922+00:00",
+      "last_updated": "2026-06-02T18:29:26.326334+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-02T14:54:06.278935+00:00"
+      "last_updated": "2026-06-02T18:29:26.863425+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-02T14:54:06.861284+00:00"
+      "last_updated": "2026-06-02T18:29:27.319977+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-02T14:54:07.115975+00:00"
+      "last_updated": "2026-06-02T18:29:27.823389+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-02T14:54:07.378374+00:00"
+      "last_updated": "2026-06-02T18:29:28.038489+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 354872,
+      "total": 354925,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-02T14:54:07.641096+00:00",
+      "last_updated": "2026-06-02T18:29:28.380852+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-02T14:54:07.641176+00:00"
+      "last_updated": "2026-06-02T18:29:28.380912+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-02T14:54:07.641182+00:00"
+      "last_updated": "2026-06-02T18:29:28.380917+00:00"
     }
   }
 }
