@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-03T12:06:22.045833+00:00",
+  "generated_at": "2026-06-03T17:13:18.450749+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1610,
+      "count": 1611,
       "items": [
+        {
+          "id": "CVE-2026-45247",
+          "vendor": "Mirasvit",
+          "product": "Mirasvit Full Page Cache Warmer",
+          "name": "Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability",
+          "date_added": "2026-06-03",
+          "due_date": "2026-06-06",
+          "description": "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2022-0492",
           "vendor": "Linux",
@@ -245,19 +255,9 @@
           "due_date": "2026-05-15",
           "description": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
           "action": "\"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-41940",
-          "vendor": "WebPros",
-          "product": "cPanel & WHM and WP2 (WordPress Squared)",
-          "name": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-04-30",
-          "due_date": "2026-05-03",
-          "description": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-03T12:06:22.138943+00:00",
+      "last_updated": "2026-06-03T17:13:18.718516+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-03T12:06:22.604138+00:00"
+      "last_updated": "2026-06-03T17:13:19.132969+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-03T12:06:23.125872+00:00"
+      "last_updated": "2026-06-03T17:13:19.643489+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-03T12:06:23.304429+00:00"
+      "last_updated": "2026-06-03T17:13:19.841626+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-03T12:06:23.408433+00:00"
+      "last_updated": "2026-06-03T17:13:19.927879+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 355029,
+      "total": 355074,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-03T12:06:32.072534+00:00",
+      "last_updated": "2026-06-03T17:13:20.043461+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-03T12:06:32.072602+00:00"
+      "last_updated": "2026-06-03T17:13:20.043550+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-03T12:06:32.072608+00:00"
+      "last_updated": "2026-06-03T17:13:20.043557+00:00"
     }
   }
 }
