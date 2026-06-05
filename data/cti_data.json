@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-05T16:44:33.449611+00:00",
+  "generated_at": "2026-06-05T18:28:39.357862+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1611,
+      "count": 1612,
       "items": [
+        {
+          "id": "CVE-2026-28318",
+          "vendor": "SolarWinds",
+          "product": "Serv-U",
+          "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
+          "date_added": "2026-06-05",
+          "due_date": "2026-06-19",
+          "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2026-45247",
           "vendor": "Mirasvit",
@@ -245,19 +255,9 @@
           "due_date": "2026-05-09",
           "description": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and V",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an offic"
-        },
-        {
-          "id": "CVE-2026-31431",
-          "vendor": "Linux",
-          "product": "Kernel",
-          "name": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
-          "date_added": "2026-05-01",
-          "due_date": "2026-05-15",
-          "description": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
-          "action": "\"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-05T16:44:33.686999+00:00",
+      "last_updated": "2026-06-05T18:28:39.469615+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-05T16:44:34.255137+00:00"
+      "last_updated": "2026-06-05T18:28:40.030230+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-05T16:44:34.747181+00:00"
+      "last_updated": "2026-06-05T18:28:40.552776+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-05T16:44:35.210088+00:00"
+      "last_updated": "2026-06-05T18:28:41.084938+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-05T16:44:35.456647+00:00"
+      "last_updated": "2026-06-05T18:28:41.367624+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 355868,
+      "total": 355901,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-05T16:44:35.688538+00:00",
+      "last_updated": "2026-06-05T18:28:41.715476+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-05T16:44:35.688614+00:00"
+      "last_updated": "2026-06-05T18:28:41.715560+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-05T16:44:35.688620+00:00"
+      "last_updated": "2026-06-05T18:28:41.715567+00:00"
     }
   }
 }
