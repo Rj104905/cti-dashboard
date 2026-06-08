@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-08T18:07:35.568810+00:00",
+  "generated_at": "2026-06-08T20:34:24.159650+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1613,
+      "count": 1614,
       "items": [
         {
           "id": "CVE-2026-42271",
@@ -14,6 +14,16 @@
           "date_added": "2026-06-08",
           "due_date": "2026-06-22",
           "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
+        {
+          "id": "CVE-2026-50751",
+          "vendor": "Check Point",
+          "product": "Security Gateway",
+          "name": "Check Point Security Gateway Improper Authentication Vulnerability",
+          "date_added": "2026-06-08",
+          "due_date": "2026-06-11",
+          "description": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user p",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         },
         {
@@ -245,19 +255,9 @@
           "due_date": "2026-05-11",
           "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-6973",
-          "vendor": "Ivanti",
-          "product": "Endpoint Manager Mobile (EPMM)",
-          "name": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
-          "date_added": "2026-05-07",
-          "due_date": "2026-05-10",
-          "description": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-08T18:07:35.713042+00:00",
+      "last_updated": "2026-06-08T20:34:24.267398+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-08T18:07:36.138034+00:00"
+      "last_updated": "2026-06-08T20:34:24.601622+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-08T18:07:36.485705+00:00"
+      "last_updated": "2026-06-08T20:34:24.957326+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-08T18:07:36.675283+00:00"
+      "last_updated": "2026-06-08T20:34:25.135363+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-08T18:07:36.838546+00:00"
+      "last_updated": "2026-06-08T20:34:25.304480+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 356213,
+      "total": 356238,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-08T18:07:36.964617+00:00",
+      "last_updated": "2026-06-08T20:34:25.409393+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-08T18:07:36.964697+00:00"
+      "last_updated": "2026-06-08T20:34:25.409466+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-08T18:07:36.964702+00:00"
+      "last_updated": "2026-06-08T20:34:25.409472+00:00"
     }
   }
 }
