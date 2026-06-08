@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-08T15:00:25.279940+00:00",
+  "generated_at": "2026-06-08T18:07:35.568810+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1612,
+      "count": 1613,
       "items": [
+        {
+          "id": "CVE-2026-42271",
+          "vendor": "BerriAI",
+          "product": "LiteLLM",
+          "name": "BerriAI LiteLLM Command Injection Vulnerability",
+          "date_added": "2026-06-08",
+          "due_date": "2026-06-22",
+          "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2026-28318",
           "vendor": "SolarWinds",
@@ -245,19 +255,9 @@
           "due_date": "2026-05-10",
           "description": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-0300",
-          "vendor": "Palo Alto Networks",
-          "product": "PAN-OS",
-          "name": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
-          "date_added": "2026-05-06",
-          "due_date": "2026-05-09",
-          "description": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and V",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an offic"
         }
       ],
-      "last_updated": "2026-06-08T15:00:25.595045+00:00",
+      "last_updated": "2026-06-08T18:07:35.713042+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-08T15:00:26.042477+00:00"
+      "last_updated": "2026-06-08T18:07:36.138034+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-08T15:00:26.514743+00:00"
+      "last_updated": "2026-06-08T18:07:36.485705+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-08T15:00:27.004417+00:00"
+      "last_updated": "2026-06-08T18:07:36.675283+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-08T15:00:27.228594+00:00"
+      "last_updated": "2026-06-08T18:07:36.838546+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 356099,
+      "total": 356213,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-08T15:00:27.401705+00:00",
+      "last_updated": "2026-06-08T18:07:36.964617+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-08T15:00:27.401791+00:00"
+      "last_updated": "2026-06-08T18:07:36.964697+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-08T15:00:27.401797+00:00"
+      "last_updated": "2026-06-08T18:07:36.964702+00:00"
     }
   }
 }
