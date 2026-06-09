@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-06-09T17:06:59.805489+00:00",
+  "generated_at": "2026-06-09T19:28:29.141598+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1614,
+      "count": 1617,
       "items": [
+        {
+          "id": "CVE-2026-11645",
+          "vendor": "Google",
+          "product": "Chromium V8",
+          "name": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+          "date_added": "2026-06-09",
+          "due_date": "2026-06-23",
+          "description": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, includin",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
+        {
+          "id": "CVE-2026-7473",
+          "vendor": "Arista",
+          "product": "Extensible Operating System",
+          "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+          "date_added": "2026-06-09",
+          "due_date": "2026-06-23",
+          "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsul",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
+        {
+          "id": "CVE-2026-20245",
+          "vendor": "Cisco",
+          "product": "Catalyst SD-WAN Manager",
+          "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+          "date_added": "2026-06-09",
+          "due_date": "2026-06-23",
+          "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+        },
         {
           "id": "CVE-2026-42271",
           "vendor": "BerriAI",
@@ -225,39 +255,9 @@
           "due_date": "2026-06-03",
           "description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-42897",
-          "vendor": "Microsoft",
-          "product": "Microsoft",
-          "name": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
-          "date_added": "2026-05-15",
-          "due_date": "2026-05-29",
-          "description": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-20182",
-          "vendor": "Cisco",
-          "product": "Catalyst SD-WAN",
-          "name": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-          "date_added": "2026-05-14",
-          "due_date": "2026-05-17",
-          "description": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
-          "action": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hun"
-        },
-        {
-          "id": "CVE-2026-42208",
-          "vendor": "BerriAI",
-          "product": "LiteLLM",
-          "name": "BerriAI LiteLLM SQL Injection Vulnerability",
-          "date_added": "2026-05-08",
-          "due_date": "2026-05-11",
-          "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-09T17:06:59.883220+00:00",
+      "last_updated": "2026-06-09T19:28:29.232985+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-09T17:07:00.515143+00:00"
+      "last_updated": "2026-06-09T19:28:29.821265+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-09T17:07:00.857033+00:00"
+      "last_updated": "2026-06-09T19:28:30.100095+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-09T17:07:01.282534+00:00"
+      "last_updated": "2026-06-09T19:28:30.660571+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-09T17:07:01.593698+00:00"
+      "last_updated": "2026-06-09T19:28:30.899401+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 356507,
+      "total": 356911,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-09T17:07:01.896792+00:00",
+      "last_updated": "2026-06-09T19:28:31.175200+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-09T17:07:01.896875+00:00"
+      "last_updated": "2026-06-09T19:28:31.175274+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-09T17:07:01.896881+00:00"
+      "last_updated": "2026-06-09T19:28:31.175280+00:00"
     }
   }
 }
