@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-11T18:32:54.080884+00:00",
+  "generated_at": "2026-06-11T21:07:01.287128+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1617,
+      "count": 1618,
       "items": [
+        {
+          "id": "CVE-2026-10520",
+          "vendor": "Ivanti",
+          "product": "Sentry",
+          "name": "Ivanti Sentry OS Command Injection Vulnerability",
+          "date_added": "2026-06-11",
+          "due_date": "2026-06-14",
+          "description": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-11645",
           "vendor": "Google",
@@ -245,19 +255,9 @@
           "due_date": "2026-06-03",
           "description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-45498",
-          "vendor": "Microsoft",
-          "product": "Defender",
-          "name": "Microsoft Defender Denial of Service Vulnerability",
-          "date_added": "2026-05-20",
-          "due_date": "2026-06-03",
-          "description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-11T18:32:54.158863+00:00",
+      "last_updated": "2026-06-11T21:07:01.421787+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-11T18:32:54.814135+00:00"
+      "last_updated": "2026-06-11T21:07:01.817543+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-11T18:32:55.383134+00:00"
+      "last_updated": "2026-06-11T21:07:02.193427+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-11T18:32:56.108773+00:00"
+      "last_updated": "2026-06-11T21:07:02.561043+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-11T18:32:56.364392+00:00"
+      "last_updated": "2026-06-11T21:07:02.733138+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 357374,
+      "total": 357422,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-11T18:32:56.655936+00:00",
+      "last_updated": "2026-06-11T21:07:02.834243+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-11T18:32:56.656001+00:00"
+      "last_updated": "2026-06-11T21:07:02.834319+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-11T18:32:56.656006+00:00"
+      "last_updated": "2026-06-11T21:07:02.834324+00:00"
     }
   }
 }
