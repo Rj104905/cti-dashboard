@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-12T15:45:50.156431+00:00",
+  "generated_at": "2026-06-12T17:57:02.905503+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1618,
+      "count": 1619,
       "items": [
+        {
+          "id": "CVE-2026-35273",
+          "vendor": "Oracle",
+          "product": " PeopleSoft Enterprise PeopleTools",
+          "name": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
+          "date_added": "2026-06-12",
+          "due_date": "2026-06-15",
+          "description": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-10520",
           "vendor": "Ivanti",
@@ -245,19 +255,9 @@
           "due_date": "2026-06-03",
           "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-41091",
-          "vendor": "Microsoft",
-          "product": "Defender",
-          "name": "Microsoft Defender Link Following Vulnerability",
-          "date_added": "2026-05-20",
-          "due_date": "2026-06-03",
-          "description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-12T15:45:50.327183+00:00",
+      "last_updated": "2026-06-12T17:57:03.066151+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-12T15:45:50.689178+00:00"
+      "last_updated": "2026-06-12T17:57:03.422139+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-12T15:45:51.083941+00:00"
+      "last_updated": "2026-06-12T17:57:03.779768+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-12T15:45:51.304161+00:00"
+      "last_updated": "2026-06-12T17:57:03.960436+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-12T15:45:51.444058+00:00"
+      "last_updated": "2026-06-12T17:57:04.104719+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 357573,
+      "total": 357625,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-12T15:45:51.686173+00:00",
+      "last_updated": "2026-06-12T17:57:04.164908+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-12T15:45:51.686254+00:00"
+      "last_updated": "2026-06-12T17:57:04.164982+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-12T15:45:51.686260+00:00"
+      "last_updated": "2026-06-12T17:57:04.164987+00:00"
     }
   }
 }
