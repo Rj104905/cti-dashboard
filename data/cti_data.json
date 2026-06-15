@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-06-15T16:08:55.129307+00:00",
+  "generated_at": "2026-06-15T19:54:08.696323+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1619,
+      "count": 1621,
       "items": [
+        {
+          "id": "CVE-2026-54420",
+          "vendor": "LiteSpeed",
+          "product": "cPanel Plugin",
+          "name": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+          "date_added": "2026-06-15",
+          "due_date": "2026-06-18",
+          "description": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-20262",
+          "vendor": "Cisco",
+          "product": "Catalyst SD-WAN Manager",
+          "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+          "date_added": "2026-06-15",
+          "due_date": "2026-06-29",
+          "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-35273",
           "vendor": "Oracle",
@@ -235,29 +255,9 @@
           "due_date": "2026-06-03",
           "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2010-0249",
-          "vendor": "Microsoft",
-          "product": "Internet Explorer",
-          "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-          "date_added": "2026-05-20",
-          "due_date": "2026-06-03",
-          "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-se",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2010-0806",
-          "vendor": "Microsoft",
-          "product": "Internet Explorer",
-          "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-          "date_added": "2026-05-20",
-          "due_date": "2026-06-03",
-          "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-15T16:08:55.301642+00:00",
+      "last_updated": "2026-06-15T19:54:08.772481+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-15T16:08:55.946699+00:00"
+      "last_updated": "2026-06-15T19:54:09.129391+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-15T16:08:56.615955+00:00"
+      "last_updated": "2026-06-15T19:54:09.446215+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-15T16:08:57.236221+00:00"
+      "last_updated": "2026-06-15T19:54:09.672278+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-15T16:08:57.550018+00:00"
+      "last_updated": "2026-06-15T19:54:09.818017+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 357885,
+      "total": 357903,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-15T16:08:57.931063+00:00",
+      "last_updated": "2026-06-15T19:54:09.972568+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-15T16:08:57.931125+00:00"
+      "last_updated": "2026-06-15T19:54:09.972643+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-15T16:08:57.931129+00:00"
+      "last_updated": "2026-06-15T19:54:09.972648+00:00"
     }
   }
 }
