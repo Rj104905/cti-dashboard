@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-16T18:46:08.637829+00:00",
+  "generated_at": "2026-06-16T21:37:22.168625+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1621,
+      "count": 1622,
       "items": [
+        {
+          "id": "CVE-2026-48907",
+          "vendor": "Widget Factory",
+          "product": "Joomla Content Editor ",
+          "name": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+          "date_added": "2026-06-16",
+          "due_date": "2026-06-19",
+          "description": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-54420",
           "vendor": "LiteSpeed",
@@ -245,19 +255,9 @@
           "due_date": "2026-06-03",
           "description": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2009-3459",
-          "vendor": "Adobe",
-          "product": "Acrobat and Reader",
-          "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
-          "date_added": "2026-05-20",
-          "due_date": "2026-06-03",
-          "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-16T18:46:08.822650+00:00",
+      "last_updated": "2026-06-16T21:37:22.268408+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-16T18:46:09.234094+00:00"
+      "last_updated": "2026-06-16T21:37:22.706074+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-16T18:46:09.655686+00:00"
+      "last_updated": "2026-06-16T21:37:23.105204+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-16T18:46:09.870016+00:00"
+      "last_updated": "2026-06-16T21:37:23.240122+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-16T18:46:10.136237+00:00"
+      "last_updated": "2026-06-16T21:37:23.396862+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 358335,
+      "total": 358423,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-16T18:46:10.261053+00:00",
+      "last_updated": "2026-06-16T21:37:23.602748+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-16T18:46:10.261115+00:00"
+      "last_updated": "2026-06-16T21:37:23.602822+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-16T18:46:10.261120+00:00"
+      "last_updated": "2026-06-16T21:37:23.602829+00:00"
     }
   }
 }
