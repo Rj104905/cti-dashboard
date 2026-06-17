@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T17:35:58.096814+00:00",
+  "generated_at": "2026-06-17T19:48:05.546942+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,7 +257,7 @@
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-17T17:35:58.373404+00:00",
+      "last_updated": "2026-06-17T19:48:05.680645+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,231 +265,49 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-17T17:35:58.891768+00:00"
+      "last_updated": "2026-06-17T19:48:06.006335+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-17T17:35:59.408941+00:00"
+      "last_updated": "2026-06-17T19:48:06.376569+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-17T17:35:59.615538+00:00"
+      "last_updated": "2026-06-17T19:48:06.533354+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-17T17:35:59.772977+00:00"
+      "last_updated": "2026-06-17T19:48:06.802704+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
-      "description": "National Vulnerability Database (NIST)",
-      "total": 359077,
-      "items": [
-        {
-          "id": "CVE-1999-0095",
-          "description": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
-          "published": "1988-10-01T04:00:00.000",
-          "modified": "2026-06-16T21:47:34.460",
-          "score": 10.0,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-0082",
-          "description": "CWD ~root command in ftpd allows root access.",
-          "published": "1988-11-11T05:00:00.000",
-          "modified": "2026-06-16T21:47:32.300",
-          "score": 10.0,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1471",
-          "description": "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.",
-          "published": "1989-01-01T05:00:00.000",
-          "modified": "2026-06-16T21:50:30.747",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1122",
-          "description": "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.",
-          "published": "1989-07-26T04:00:00.000",
-          "modified": "2026-06-16T21:49:46.027",
-          "score": 4.6,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1467",
-          "description": "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.",
-          "published": "1989-10-26T04:00:00.000",
-          "modified": "2026-06-16T21:50:30.147",
-          "score": 10.0,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1506",
-          "description": "Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin.",
-          "published": "1990-01-29T05:00:00.000",
-          "modified": "2026-06-16T21:50:35.230",
-          "score": 7.5,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-0084",
-          "description": "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.",
-          "published": "1990-05-01T04:00:00.000",
-          "modified": "2026-06-16T21:47:32.553",
-          "score": 8.4,
-          "severity": "HIGH",
-          "vector": "LOCAL"
-        },
-        {
-          "id": "CVE-2000-0388",
-          "description": "Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable.",
-          "published": "1990-05-09T04:00:00.000",
-          "modified": "2026-06-16T21:51:36.727",
-          "score": 7.5,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-0209",
-          "description": "The SunView (SunTools) selection_svc facility allows remote users to read files.",
-          "published": "1990-08-14T04:00:00.000",
-          "modified": "2026-06-16T21:47:54.977",
-          "score": 5.0,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1198",
-          "description": "BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges.",
-          "published": "1990-10-03T04:00:00.000",
-          "modified": "2026-06-16T21:49:55.630",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1391",
-          "description": "Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions.",
-          "published": "1990-10-03T04:00:00.000",
-          "modified": "2026-06-16T21:50:20.377",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1392",
-          "description": "Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges.",
-          "published": "1990-10-03T04:00:00.000",
-          "modified": "2026-06-16T21:50:20.500",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1057",
-          "description": "VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command.",
-          "published": "1990-10-25T04:00:00.000",
-          "modified": "2026-06-16T21:49:36.917",
-          "score": 4.6,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1554",
-          "description": "/usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users.",
-          "published": "1990-10-31T05:00:00.000",
-          "modified": "2026-06-16T21:50:42.350",
-          "score": 2.1,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1197",
-          "description": "TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges.",
-          "published": "1990-12-20T05:00:00.000",
-          "modified": "2026-06-16T21:49:55.497",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1115",
-          "description": "Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh).",
-          "published": "1990-12-31T05:00:00.000",
-          "modified": "2026-06-16T21:49:45.133",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1258",
-          "description": "rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information.",
-          "published": "1991-01-15T05:00:00.000",
-          "modified": "2026-06-16T21:50:03.313",
-          "score": 5.0,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1438",
-          "description": "Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments.",
-          "published": "1991-02-22T05:00:00.000",
-          "modified": "2026-06-16T21:50:26.483",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1211",
-          "description": "Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges.",
-          "published": "1991-03-27T05:00:00.000",
-          "modified": "2026-06-16T21:49:57.387",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        },
-        {
-          "id": "CVE-1999-1212",
-          "description": "Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges.",
-          "published": "1991-03-27T05:00:00.000",
-          "modified": "2026-06-16T21:49:57.500",
-          "score": 7.2,
-          "severity": "N/A",
-          "vector": ""
-        }
-      ],
-      "last_updated": "2026-06-17T17:36:01.134940+00:00",
-      "status": "ok"
+      "status": "error",
+      "error": "503 Server Error: Service Unavailable for url: https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=20&startIndex=0",
+      "items": [],
+      "last_updated": "2026-06-17T19:48:06.871258+00:00"
     },
     "otx": {
       "source": "AlienVault OTX",
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-17T17:36:01.135072+00:00"
+      "last_updated": "2026-06-17T19:48:06.871286+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-17T17:36:01.135080+00:00"
+      "last_updated": "2026-06-17T19:48:06.871291+00:00"
     }
   }
 }
