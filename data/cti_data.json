@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T16:47:29.126741+00:00",
+  "generated_at": "2026-06-20T18:03:22.213483+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,7 +257,7 @@
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-20T16:47:29.262179+00:00",
+      "last_updated": "2026-06-20T18:03:22.346726+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,49 +265,49 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-20T16:47:29.850215+00:00"
+      "last_updated": "2026-06-20T18:03:22.753780+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-20T16:47:30.407762+00:00"
+      "last_updated": "2026-06-20T18:03:23.169314+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-20T16:47:30.985503+00:00"
+      "last_updated": "2026-06-20T18:03:23.555166+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-20T16:47:31.324166+00:00"
+      "last_updated": "2026-06-20T18:03:23.629840+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "status": "error",
-      "error": "503 Server Error: Service Unavailable for url: https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=20&startIndex=0",
+      "error": "HTTPSConnectionPool(host='services.nvd.nist.gov', port=443): Read timed out. (read timeout=30)",
       "items": [],
-      "last_updated": "2026-06-20T16:47:31.491534+00:00"
+      "last_updated": "2026-06-20T18:03:53.726251+00:00"
     },
     "otx": {
       "source": "AlienVault OTX",
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-20T16:47:31.491566+00:00"
+      "last_updated": "2026-06-20T18:03:53.726276+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-20T16:47:31.491570+00:00"
+      "last_updated": "2026-06-20T18:03:53.726283+00:00"
     }
   }
 }
