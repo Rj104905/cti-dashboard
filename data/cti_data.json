@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-06-23T15:42:21.133621+00:00",
+  "generated_at": "2026-06-23T17:28:59.527700+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1623,
+      "count": 1627,
       "items": [
+        {
+          "id": "CVE-2025-67038",
+          "vendor": "Lantronix",
+          "product": "EDS5000",
+          "name": "Lantronix EDS5000 Code Injection Vulnerability",
+          "date_added": "2026-06-23",
+          "due_date": "2026-06-26",
+          "description": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-34910",
+          "vendor": "Ubiquiti",
+          "product": "UniFi OS",
+          "name": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+          "date_added": "2026-06-23",
+          "due_date": "2026-06-26",
+          "description": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-34909",
+          "vendor": "Ubiquiti",
+          "product": "UniFi OS",
+          "name": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+          "date_added": "2026-06-23",
+          "due_date": "2026-06-26",
+          "description": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-34908",
+          "vendor": "Ubiquiti",
+          "product": "UniFi OS",
+          "name": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+          "date_added": "2026-06-23",
+          "due_date": "2026-06-26",
+          "description": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-20253",
           "vendor": "Splunk",
@@ -215,49 +255,9 @@
           "due_date": "2026-05-29",
           "description": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-9082",
-          "vendor": "Drupal",
-          "product": "Core",
-          "name": "Drupal Core SQL Injection Vulnerability",
-          "date_added": "2026-05-22",
-          "due_date": "2026-05-27",
-          "description": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2025-34291",
-          "vendor": "Langflow",
-          "product": "Langflow",
-          "name": "Langflow Origin Validation Error Vulnerability",
-          "date_added": "2026-05-21",
-          "due_date": "2026-06-04",
-          "description": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include cred",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-34926",
-          "vendor": "Trend Micro",
-          "product": "Apex One",
-          "name": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
-          "date_added": "2026-05-21",
-          "due_date": "2026-06-04",
-          "description": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2008-4250",
-          "vendor": "Microsoft",
-          "product": "Windows",
-          "name": "Microsoft Windows Buffer Overflow Vulnerability",
-          "date_added": "2026-05-20",
-          "due_date": "2026-06-03",
-          "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-23T15:42:21.251105+00:00",
+      "last_updated": "2026-06-23T17:28:59.732635+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,49 +265,49 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-23T15:42:21.608763+00:00"
+      "last_updated": "2026-06-23T17:29:00.324864+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-23T15:42:21.936163+00:00"
+      "last_updated": "2026-06-23T17:29:00.752144+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-23T15:42:22.112762+00:00"
+      "last_updated": "2026-06-23T17:29:01.069596+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-23T15:42:22.361719+00:00"
+      "last_updated": "2026-06-23T17:29:01.244026+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "status": "error",
       "error": "HTTPSConnectionPool(host='services.nvd.nist.gov', port=443): Read timed out. (read timeout=30)",
       "items": [],
-      "last_updated": "2026-06-23T15:42:52.428092+00:00"
+      "last_updated": "2026-06-23T17:29:31.310809+00:00"
     },
     "otx": {
       "source": "AlienVault OTX",
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-23T15:42:52.428125+00:00"
+      "last_updated": "2026-06-23T17:29:31.310836+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-23T15:42:52.428134+00:00"
+      "last_updated": "2026-06-23T17:29:31.310842+00:00"
     }
   }
 }
