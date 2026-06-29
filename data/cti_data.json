@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-06-29T18:19:54.796552+00:00",
+  "generated_at": "2026-06-29T20:18:58.457193+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1629,
+      "count": 1630,
       "items": [
+        {
+          "id": "CVE-2026-48558",
+          "vendor": "SimpleHelp ",
+          "product": "SimpleHelp",
+          "name": "SimpleHelp Authentication Bypass Vulnerability",
+          "date_added": "2026-06-29",
+          "due_date": "2026-07-02",
+          "description": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable c",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-12569",
           "vendor": "PTC",
@@ -245,19 +255,9 @@
           "due_date": "2026-06-10",
           "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-45321",
-          "vendor": "TanStack",
-          "product": "TanStack",
-          "name": "TanStack Unspecified Vulnerability",
-          "date_added": "2026-05-27",
-          "due_date": "2026-06-10",
-          "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-06-29T18:19:54.889482+00:00",
+      "last_updated": "2026-06-29T20:18:58.538988+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-06-29T18:19:55.218924+00:00"
+      "last_updated": "2026-06-29T20:18:58.898257+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-29T18:19:55.730227+00:00"
+      "last_updated": "2026-06-29T20:18:59.308052+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-06-29T18:19:55.910475+00:00"
+      "last_updated": "2026-06-29T20:18:59.433683+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-06-29T18:19:56.094005+00:00"
+      "last_updated": "2026-06-29T20:18:59.671081+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 361693,
+      "total": 361749,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-06-29T18:19:56.206889+00:00",
+      "last_updated": "2026-06-29T20:18:59.836322+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-29T18:19:56.206972+00:00"
+      "last_updated": "2026-06-29T20:18:59.836399+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-06-29T18:19:56.206977+00:00"
+      "last_updated": "2026-06-29T20:18:59.836405+00:00"
     }
   }
 }
