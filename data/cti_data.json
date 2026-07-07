@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-07T18:16:00.558074+00:00",
+  "generated_at": "2026-07-07T20:20:02.758237+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1634,
+      "count": 1635,
       "items": [
         {
           "id": "CVE-2026-48908",
@@ -34,6 +34,16 @@
           "date_added": "2026-07-07",
           "due_date": "2026-07-10",
           "description": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-48282",
+          "vendor": "Adobe",
+          "product": "ColdFusion",
+          "name": "Adobe ColdFusion Path Traversal Vulnerability",
+          "date_added": "2026-07-07",
+          "due_date": "2026-07-10",
+          "description": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -245,19 +255,9 @@
           "due_date": "2026-06-06",
           "description": "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2022-0492",
-          "vendor": "Linux",
-          "product": "Kernel",
-          "name": "Linux Kernel Improper Authentication Vulnerability",
-          "date_added": "2026-06-02",
-          "due_date": "2026-06-05",
-          "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-07-07T18:16:00.744362+00:00",
+      "last_updated": "2026-07-07T20:20:02.941046+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-07T18:16:01.259520+00:00"
+      "last_updated": "2026-07-07T20:20:03.505173+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-07T18:16:01.789147+00:00"
+      "last_updated": "2026-07-07T20:20:03.922544+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-07T18:16:02.357330+00:00"
+      "last_updated": "2026-07-07T20:20:04.112434+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-07T18:16:02.684404+00:00"
+      "last_updated": "2026-07-07T20:20:04.267292+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 363666,
+      "total": 363684,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-07T18:16:03.139907+00:00",
+      "last_updated": "2026-07-07T20:20:04.423448+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-07T18:16:03.139988+00:00"
+      "last_updated": "2026-07-07T20:20:04.423564+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-07T18:16:03.139994+00:00"
+      "last_updated": "2026-07-07T20:20:04.423570+00:00"
     }
   }
 }
