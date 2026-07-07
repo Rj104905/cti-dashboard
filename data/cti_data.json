@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-07-07T16:08:31.141975+00:00",
+  "generated_at": "2026-07-07T18:16:00.558074+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1631,
+      "count": 1634,
       "items": [
+        {
+          "id": "CVE-2026-48908",
+          "vendor": "JoomShaper",
+          "product": "SP Page Builder",
+          "name": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+          "date_added": "2026-07-07",
+          "due_date": "2026-07-10",
+          "description": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-55255",
+          "vendor": "Langflow",
+          "product": "Langflow",
+          "name": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
+          "date_added": "2026-07-07",
+          "due_date": "2026-07-10",
+          "description": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-56290",
+          "vendor": "Joomlack",
+          "product": "Page Builder",
+          "name": "Joomlack Page Builder Improper Access Control Vulnerability",
+          "date_added": "2026-07-07",
+          "due_date": "2026-07-10",
+          "description": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-45659",
           "vendor": "Microsoft",
@@ -225,39 +255,9 @@
           "due_date": "2026-06-05",
           "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2025-48595",
-          "vendor": "Android",
-          "product": "Framework",
-          "name": "Android Framework Integer Overflow Vulnerability",
-          "date_added": "2026-06-02",
-          "due_date": "2026-06-05",
-          "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2024-21182",
-          "vendor": "Oracle",
-          "product": "WebLogic Server",
-          "name": "Oracle WebLogic Server Unspecified Vulnerability",
-          "date_added": "2026-06-01",
-          "due_date": "2026-06-04",
-          "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to cr",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-0257",
-          "vendor": "Palo Alto Networks",
-          "product": "PAN-OS",
-          "name": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
-          "date_added": "2026-05-29",
-          "due_date": "2026-06-01",
-          "description": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-07-07T16:08:31.328897+00:00",
+      "last_updated": "2026-07-07T18:16:00.744362+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-07T16:08:31.850929+00:00"
+      "last_updated": "2026-07-07T18:16:01.259520+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-07T16:08:32.483783+00:00"
+      "last_updated": "2026-07-07T18:16:01.789147+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-07T16:08:32.714083+00:00"
+      "last_updated": "2026-07-07T18:16:02.357330+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-07T16:08:32.937557+00:00"
+      "last_updated": "2026-07-07T18:16:02.684404+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 363655,
+      "total": 363666,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-07T16:08:33.951079+00:00",
+      "last_updated": "2026-07-07T18:16:03.139907+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-07T16:08:33.951155+00:00"
+      "last_updated": "2026-07-07T18:16:03.139988+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-07T16:08:33.951161+00:00"
+      "last_updated": "2026-07-07T18:16:03.139994+00:00"
     }
   }
 }
