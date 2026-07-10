@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-07-10T17:05:01.911651+00:00",
+  "generated_at": "2026-07-10T18:42:16.662031+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1635,
+      "count": 1637,
       "items": [
+        {
+          "id": "CVE-2026-56291",
+          "vendor": "Balbooa",
+          "product": "Forms",
+          "name": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+          "date_added": "2026-07-10",
+          "due_date": "2026-07-13",
+          "description": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-48939",
+          "vendor": "iCagenda",
+          "product": "iCagenda",
+          "name": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+          "date_added": "2026-07-10",
+          "due_date": "2026-07-13",
+          "description": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-48908",
           "vendor": "JoomShaper",
@@ -235,29 +255,9 @@
           "due_date": "2026-06-11",
           "description": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user p",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-28318",
-          "vendor": "SolarWinds",
-          "product": "Serv-U",
-          "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-          "date_added": "2026-06-05",
-          "due_date": "2026-06-19",
-          "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-45247",
-          "vendor": "Mirasvit",
-          "product": "Mirasvit Full Page Cache Warmer",
-          "name": "Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability",
-          "date_added": "2026-06-03",
-          "due_date": "2026-06-06",
-          "description": "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-07-10T17:05:02.056825+00:00",
+      "last_updated": "2026-07-10T18:42:16.831058+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-10T17:05:02.650082+00:00"
+      "last_updated": "2026-07-10T18:42:17.163111+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-10T17:05:03.183250+00:00"
+      "last_updated": "2026-07-10T18:42:17.476821+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-10T17:05:03.346389+00:00"
+      "last_updated": "2026-07-10T18:42:17.682274+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-10T17:05:03.566694+00:00"
+      "last_updated": "2026-07-10T18:42:17.809529+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 364556,
+      "total": 364602,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-10T17:05:03.679737+00:00",
+      "last_updated": "2026-07-10T18:42:17.988924+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-10T17:05:03.679815+00:00"
+      "last_updated": "2026-07-10T18:42:17.989012+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-10T17:05:03.679821+00:00"
+      "last_updated": "2026-07-10T18:42:17.989018+00:00"
     }
   }
 }
