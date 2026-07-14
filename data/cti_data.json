@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-14T19:40:23.382239+00:00",
+  "generated_at": "2026-07-14T20:41:07.245238+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1640,
+      "count": 1642,
       "items": [
         {
           "id": "CVE-2026-56155",
@@ -24,6 +24,26 @@
           "date_added": "2026-07-14",
           "due_date": "2026-07-17",
           "description": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-15409",
+          "vendor": "SonicWall",
+          "product": "SMA1000 Appliances",
+          "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+          "date_added": "2026-07-14",
+          "due_date": "2026-07-17",
+          "description": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-15410",
+          "vendor": "SonicWall",
+          "product": "SMA1000 Appliances",
+          "name": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+          "date_added": "2026-07-14",
+          "due_date": "2026-07-17",
+          "description": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -235,29 +255,9 @@
           "due_date": "2026-06-14",
           "description": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases ",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-11645",
-          "vendor": "Google",
-          "product": "Chromium V8",
-          "name": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
-          "date_added": "2026-06-09",
-          "due_date": "2026-06-23",
-          "description": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, includin",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-7473",
-          "vendor": "Arista",
-          "product": "Extensible Operating System",
-          "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
-          "date_added": "2026-06-09",
-          "due_date": "2026-06-23",
-          "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsul",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-07-14T19:40:23.627409+00:00",
+      "last_updated": "2026-07-14T20:41:07.395129+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-14T19:40:24.076605+00:00"
+      "last_updated": "2026-07-14T20:41:07.717567+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-14T19:40:24.515045+00:00"
+      "last_updated": "2026-07-14T20:41:08.073203+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-14T19:40:24.742362+00:00"
+      "last_updated": "2026-07-14T20:41:08.296497+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-14T19:40:24.973161+00:00"
+      "last_updated": "2026-07-14T20:41:08.442823+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 366018,
+      "total": 366094,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-14T19:40:25.264156+00:00",
+      "last_updated": "2026-07-14T20:41:08.699594+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-14T19:40:25.264235+00:00"
+      "last_updated": "2026-07-14T20:41:08.699679+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-14T19:40:25.264241+00:00"
+      "last_updated": "2026-07-14T20:41:08.699684+00:00"
     }
   }
 }
