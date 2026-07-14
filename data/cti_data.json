@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-07-14T18:00:52.508702+00:00",
+  "generated_at": "2026-07-14T19:40:23.382239+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1638,
+      "count": 1640,
       "items": [
+        {
+          "id": "CVE-2026-56155",
+          "vendor": "Microsoft",
+          "product": "Active Directory Federation Services",
+          "name": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+          "date_added": "2026-07-14",
+          "due_date": "2026-07-28",
+          "description": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-56164",
+          "vendor": "Microsoft",
+          "product": "SharePoint Server",
+          "name": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+          "date_added": "2026-07-14",
+          "due_date": "2026-07-17",
+          "description": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2008-4128",
           "vendor": "Cisco",
@@ -235,29 +255,9 @@
           "due_date": "2026-06-23",
           "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsul",
           "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-20245",
-          "vendor": "Cisco",
-          "product": "Catalyst SD-WAN Manager",
-          "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
-          "date_added": "2026-06-09",
-          "due_date": "2026-06-23",
-          "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
-        },
-        {
-          "id": "CVE-2026-42271",
-          "vendor": "BerriAI",
-          "product": "LiteLLM",
-          "name": "BerriAI LiteLLM Command Injection Vulnerability",
-          "date_added": "2026-06-08",
-          "due_date": "2026-06-22",
-          "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
         }
       ],
-      "last_updated": "2026-07-14T18:00:52.635295+00:00",
+      "last_updated": "2026-07-14T19:40:23.627409+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-14T18:00:53.235264+00:00"
+      "last_updated": "2026-07-14T19:40:24.076605+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-14T18:00:53.655110+00:00"
+      "last_updated": "2026-07-14T19:40:24.515045+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-14T18:00:54.255836+00:00"
+      "last_updated": "2026-07-14T19:40:24.742362+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-14T18:00:54.535798+00:00"
+      "last_updated": "2026-07-14T19:40:24.973161+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 365589,
+      "total": 366018,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-14T18:00:54.987332+00:00",
+      "last_updated": "2026-07-14T19:40:25.264156+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-14T18:00:54.987419+00:00"
+      "last_updated": "2026-07-14T19:40:25.264235+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-14T18:00:54.987425+00:00"
+      "last_updated": "2026-07-14T19:40:25.264241+00:00"
     }
   }
 }
