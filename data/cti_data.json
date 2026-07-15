@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-07-15T16:42:04.229776+00:00",
+  "generated_at": "2026-07-15T17:51:41.514565+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1642,
+      "count": 1644,
       "items": [
+        {
+          "id": "CVE-2026-46817",
+          "vendor": "Oracle",
+          "product": "E-Business Suite",
+          "name": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+          "date_added": "2026-07-15",
+          "due_date": "2026-07-18",
+          "description": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Ora",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2023-4346",
+          "vendor": "KNX Association",
+          "product": "KNX Protocol Connection Authorization Option 1",
+          "name": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
+          "date_added": "2026-07-15",
+          "due_date": "2026-07-29",
+          "description": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to l",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-56155",
           "vendor": "Microsoft",
@@ -235,29 +255,9 @@
           "due_date": "2026-06-29",
           "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-35273",
-          "vendor": "Oracle",
-          "product": " PeopleSoft Enterprise PeopleTools",
-          "name": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-06-12",
-          "due_date": "2026-06-15",
-          "description": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-10520",
-          "vendor": "Ivanti",
-          "product": "Sentry",
-          "name": "Ivanti Sentry OS Command Injection Vulnerability",
-          "date_added": "2026-06-11",
-          "due_date": "2026-06-14",
-          "description": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-07-15T16:42:04.368701+00:00",
+      "last_updated": "2026-07-15T17:51:41.678634+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-15T16:42:04.835414+00:00"
+      "last_updated": "2026-07-15T17:51:42.046871+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-15T16:42:05.248856+00:00"
+      "last_updated": "2026-07-15T17:51:42.399231+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-15T16:42:05.579247+00:00"
+      "last_updated": "2026-07-15T17:51:42.623331+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-15T16:42:05.913195+00:00"
+      "last_updated": "2026-07-15T17:51:42.962500+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 366368,
+      "total": 366405,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-15T16:42:06.021679+00:00",
+      "last_updated": "2026-07-15T17:51:43.052973+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-15T16:42:06.021753+00:00"
+      "last_updated": "2026-07-15T17:51:43.053053+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-15T16:42:06.021759+00:00"
+      "last_updated": "2026-07-15T17:51:43.053059+00:00"
     }
   }
 }
