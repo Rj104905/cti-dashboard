@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-07-16T16:08:23.495776+00:00",
+  "generated_at": "2026-07-16T17:37:39.856496+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1644,
+      "count": 1647,
       "items": [
+        {
+          "id": "CVE-2026-58644",
+          "vendor": "Microsoft",
+          "product": "SharePoint",
+          "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+          "date_added": "2026-07-16",
+          "due_date": "2026-07-19",
+          "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-25089",
+          "vendor": "Fortinet",
+          "product": "FortiSandbox",
+          "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
+          "date_added": "2026-07-16",
+          "due_date": "2026-07-19",
+          "description": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-39808",
+          "vendor": "Fortinet",
+          "product": "FortiSandbox",
+          "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
+          "date_added": "2026-07-16",
+          "due_date": "2026-07-19",
+          "description": "Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-46817",
           "vendor": "Oracle",
@@ -225,39 +255,9 @@
           "due_date": "2026-06-21",
           "description": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48907",
-          "vendor": "Widget Factory",
-          "product": "Joomla Content Editor ",
-          "name": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-          "date_added": "2026-06-16",
-          "due_date": "2026-06-19",
-          "description": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-54420",
-          "vendor": "LiteSpeed",
-          "product": "cPanel Plugin",
-          "name": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
-          "date_added": "2026-06-15",
-          "due_date": "2026-06-18",
-          "description": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20262",
-          "vendor": "Cisco",
-          "product": "Catalyst SD-WAN Manager",
-          "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-          "date_added": "2026-06-15",
-          "due_date": "2026-06-29",
-          "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-07-16T16:08:23.638674+00:00",
+      "last_updated": "2026-07-16T17:37:40.086893+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-16T16:08:24.245553+00:00"
+      "last_updated": "2026-07-16T17:37:40.519585+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-16T16:08:24.828007+00:00"
+      "last_updated": "2026-07-16T17:37:40.961845+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-16T16:08:25.115594+00:00"
+      "last_updated": "2026-07-16T17:37:41.451862+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-16T16:08:25.431846+00:00"
+      "last_updated": "2026-07-16T17:37:41.679258+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 366616,
+      "total": 366669,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-16T16:08:26.672198+00:00",
+      "last_updated": "2026-07-16T17:37:55.152823+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-16T16:08:26.672278+00:00"
+      "last_updated": "2026-07-16T17:37:55.152898+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-16T16:08:26.672283+00:00"
+      "last_updated": "2026-07-16T17:37:55.152903+00:00"
     }
   }
 }
