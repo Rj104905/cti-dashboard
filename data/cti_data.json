@@ -1,297 +1,45 @@
 {
-  "generated_at": "2026-07-19T14:44:46.026605+00:00",
+  "generated_at": "2026-07-19T15:38:24.404488+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
-      "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1647,
-      "items": [
-        {
-          "id": "CVE-2026-58644",
-          "vendor": "Microsoft",
-          "product": "SharePoint",
-          "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-          "date_added": "2026-07-16",
-          "due_date": "2026-07-19",
-          "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-25089",
-          "vendor": "Fortinet",
-          "product": "FortiSandbox",
-          "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-          "date_added": "2026-07-16",
-          "due_date": "2026-07-19",
-          "description": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-39808",
-          "vendor": "Fortinet",
-          "product": "FortiSandbox",
-          "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-          "date_added": "2026-07-16",
-          "due_date": "2026-07-19",
-          "description": "Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-46817",
-          "vendor": "Oracle",
-          "product": "E-Business Suite",
-          "name": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
-          "date_added": "2026-07-15",
-          "due_date": "2026-07-18",
-          "description": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Ora",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2023-4346",
-          "vendor": "KNX Association",
-          "product": "KNX Protocol Connection Authorization Option 1",
-          "name": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
-          "date_added": "2026-07-15",
-          "due_date": "2026-07-29",
-          "description": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to l",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-56155",
-          "vendor": "Microsoft",
-          "product": "Active Directory Federation Services",
-          "name": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
-          "date_added": "2026-07-14",
-          "due_date": "2026-07-28",
-          "description": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-56164",
-          "vendor": "Microsoft",
-          "product": "SharePoint Server",
-          "name": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-07-14",
-          "due_date": "2026-07-17",
-          "description": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-15409",
-          "vendor": "SonicWall",
-          "product": "SMA1000 Appliances",
-          "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-          "date_added": "2026-07-14",
-          "due_date": "2026-07-17",
-          "description": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-15410",
-          "vendor": "SonicWall",
-          "product": "SMA1000 Appliances",
-          "name": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
-          "date_added": "2026-07-14",
-          "due_date": "2026-07-17",
-          "description": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2008-4128",
-          "vendor": "Cisco",
-          "product": "IOS",
-          "name": "Cisco IOS Cross-Site Request Forgery Vulnerability",
-          "date_added": "2026-07-13",
-          "due_date": "2026-07-16",
-          "description": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /leve",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-56291",
-          "vendor": "Balbooa",
-          "product": "Forms",
-          "name": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "date_added": "2026-07-10",
-          "due_date": "2026-07-13",
-          "description": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48939",
-          "vendor": "iCagenda",
-          "product": "iCagenda",
-          "name": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "date_added": "2026-07-10",
-          "due_date": "2026-07-13",
-          "description": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48908",
-          "vendor": "JoomShaper",
-          "product": "SP Page Builder",
-          "name": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-55255",
-          "vendor": "Langflow",
-          "product": "Langflow",
-          "name": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-56290",
-          "vendor": "Joomlack",
-          "product": "Page Builder",
-          "name": "Joomlack Page Builder Improper Access Control Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48282",
-          "vendor": "Adobe",
-          "product": "ColdFusion",
-          "name": "Adobe ColdFusion Path Traversal Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-45659",
-          "vendor": "Microsoft",
-          "product": "SharePoint Server",
-          "name": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-          "date_added": "2026-07-01",
-          "due_date": "2026-07-04",
-          "description": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48558",
-          "vendor": "SimpleHelp ",
-          "product": "SimpleHelp",
-          "name": "SimpleHelp Authentication Bypass Vulnerability",
-          "date_added": "2026-06-29",
-          "due_date": "2026-07-02",
-          "description": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable c",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-12569",
-          "vendor": "PTC",
-          "product": "Windchill and FlexPLM",
-          "name": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-          "date_added": "2026-06-25",
-          "due_date": "2026-06-28",
-          "description": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20230",
-          "vendor": "Cisco",
-          "product": "Unified Communications Manager",
-          "name": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-          "date_added": "2026-06-25",
-          "due_date": "2026-06-28",
-          "description": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2025-67038",
-          "vendor": "Lantronix",
-          "product": "EDS5000",
-          "name": "Lantronix EDS5000 Code Injection Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-34910",
-          "vendor": "Ubiquiti",
-          "product": "UniFi OS",
-          "name": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-34909",
-          "vendor": "Ubiquiti",
-          "product": "UniFi OS",
-          "name": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-34908",
-          "vendor": "Ubiquiti",
-          "product": "UniFi OS",
-          "name": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20253",
-          "vendor": "Splunk",
-          "product": "Enterprise",
-          "name": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-06-18",
-          "due_date": "2026-06-21",
-          "description": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        }
-      ],
-      "last_updated": "2026-07-19T14:44:46.198345+00:00",
-      "status": "ok"
+      "status": "error",
+      "error": "403 Client Error: Forbidden for url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "items": [],
+      "last_updated": "2026-07-19T15:38:24.509410+00:00"
     },
     "urlhaus": {
       "source": "URLhaus",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-19T14:44:46.707091+00:00"
+      "last_updated": "2026-07-19T15:38:25.085975+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-19T14:44:47.282345+00:00"
+      "last_updated": "2026-07-19T15:38:25.878716+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-19T14:44:47.495443+00:00"
+      "last_updated": "2026-07-19T15:38:26.537566+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-19T14:44:47.658529+00:00"
+      "last_updated": "2026-07-19T15:38:26.783464+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 367259,
+      "total": 367298,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +222,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-19T14:44:47.742735+00:00",
+      "last_updated": "2026-07-19T15:38:27.079754+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +230,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-19T14:44:47.742802+00:00"
+      "last_updated": "2026-07-19T15:38:27.079815+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-19T14:44:47.742808+00:00"
+      "last_updated": "2026-07-19T15:38:27.079821+00:00"
     }
   }
 }
