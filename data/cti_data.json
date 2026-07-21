@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-07-21T14:52:40.184807+00:00",
+  "generated_at": "2026-07-21T16:12:15.695876+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1647,
+      "count": 1651,
       "items": [
+        {
+          "id": "CVE-2026-60137",
+          "vendor": "WordPress",
+          "product": "Core",
+          "name": "WordPress Core SQL Injection Vulnerability",
+          "date_added": "2026-07-21",
+          "due_date": "2026-08-04",
+          "description": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-63030",
+          "vendor": "WordPress",
+          "product": "Core",
+          "name": "WordPress Core Interpretation Conflict Vulnerability",
+          "date_added": "2026-07-21",
+          "due_date": "2026-07-24",
+          "description": "WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-0770",
+          "vendor": "Langflow",
+          "product": "Langflow",
+          "name": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+          "date_added": "2026-07-21",
+          "due_date": "2026-07-24",
+          "description": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2021-27137",
+          "vendor": "DD-WRT",
+          "product": "DD-WRT",
+          "name": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
+          "date_added": "2026-07-21",
+          "due_date": "2026-07-24",
+          "description": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-58644",
           "vendor": "Microsoft",
@@ -215,49 +255,9 @@
           "due_date": "2026-06-26",
           "description": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-34910",
-          "vendor": "Ubiquiti",
-          "product": "UniFi OS",
-          "name": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-34909",
-          "vendor": "Ubiquiti",
-          "product": "UniFi OS",
-          "name": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-34908",
-          "vendor": "Ubiquiti",
-          "product": "UniFi OS",
-          "name": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20253",
-          "vendor": "Splunk",
-          "product": "Enterprise",
-          "name": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-06-18",
-          "due_date": "2026-06-21",
-          "description": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-07-21T14:52:40.296141+00:00",
+      "last_updated": "2026-07-21T16:12:15.802617+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-21T14:52:40.706830+00:00"
+      "last_updated": "2026-07-21T16:12:16.152674+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-21T14:52:41.022111+00:00"
+      "last_updated": "2026-07-21T16:12:16.502141+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-21T14:52:41.256980+00:00"
+      "last_updated": "2026-07-21T16:12:16.681992+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-21T14:52:41.384616+00:00"
+      "last_updated": "2026-07-21T16:12:17.012963+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 368009,
+      "total": 368026,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-21T14:52:41.542159+00:00",
+      "last_updated": "2026-07-21T16:12:17.163331+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-21T14:52:41.542247+00:00"
+      "last_updated": "2026-07-21T16:12:17.163409+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-21T14:52:41.542254+00:00"
+      "last_updated": "2026-07-21T16:12:17.163415+00:00"
     }
   }
 }
