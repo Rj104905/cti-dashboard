@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-07-22T18:45:41.084297+00:00",
+  "generated_at": "2026-07-22T20:04:04.821117+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1651,
+      "count": 1653,
       "items": [
+        {
+          "id": "CVE-2026-16232",
+          "vendor": "Check Point",
+          "product": "SmartConsole",
+          "name": "Check Point SmartConsole Improper Authentication Vulnerability",
+          "date_added": "2026-07-22",
+          "due_date": "2026-07-25",
+          "description": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-50522",
+          "vendor": "Microsoft",
+          "product": "SharePoint",
+          "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
+          "date_added": "2026-07-22",
+          "due_date": "2026-07-25",
+          "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-60137",
           "vendor": "WordPress",
@@ -235,29 +255,9 @@
           "due_date": "2026-06-28",
           "description": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20230",
-          "vendor": "Cisco",
-          "product": "Unified Communications Manager",
-          "name": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-          "date_added": "2026-06-25",
-          "due_date": "2026-06-28",
-          "description": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2025-67038",
-          "vendor": "Lantronix",
-          "product": "EDS5000",
-          "name": "Lantronix EDS5000 Code Injection Vulnerability",
-          "date_added": "2026-06-23",
-          "due_date": "2026-06-26",
-          "description": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-07-22T18:45:41.215977+00:00",
+      "last_updated": "2026-07-22T20:04:04.967333+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-22T18:45:41.721679+00:00"
+      "last_updated": "2026-07-22T20:04:05.288954+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-22T18:45:42.232318+00:00"
+      "last_updated": "2026-07-22T20:04:05.643008+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-22T18:45:42.451718+00:00"
+      "last_updated": "2026-07-22T20:04:05.815925+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-22T18:45:42.710697+00:00"
+      "last_updated": "2026-07-22T20:04:06.033600+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 369487,
+      "total": 369490,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-22T18:45:43.005049+00:00",
+      "last_updated": "2026-07-22T20:04:06.135451+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-22T18:45:43.005119+00:00"
+      "last_updated": "2026-07-22T20:04:06.135515+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-22T18:45:43.005123+00:00"
+      "last_updated": "2026-07-22T20:04:06.135520+00:00"
     }
   }
 }
