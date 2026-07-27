@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-27T18:10:54.707971+00:00",
+  "generated_at": "2026-07-27T19:51:24.590688+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1654,
+      "count": 1655,
       "items": [
         {
           "id": "CVE-2025-68686",
@@ -14,6 +14,16 @@
           "date_added": "2026-07-27",
           "due_date": "2026-08-10",
           "description": "Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-ex",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-16812",
+          "vendor": "Arista",
+          "product": "VeloCloud Orchestrator",
+          "name": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+          "date_added": "2026-07-27",
+          "due_date": "2026-07-30",
+          "description": "Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, int",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -245,19 +255,9 @@
           "due_date": "2026-07-04",
           "description": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48558",
-          "vendor": "SimpleHelp ",
-          "product": "SimpleHelp",
-          "name": "SimpleHelp Authentication Bypass Vulnerability",
-          "date_added": "2026-06-29",
-          "due_date": "2026-07-02",
-          "description": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable c",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-07-27T18:10:54.849808+00:00",
+      "last_updated": "2026-07-27T19:51:24.760050+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-27T18:10:55.419068+00:00"
+      "last_updated": "2026-07-27T19:51:25.389166+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-27T18:10:56.095028+00:00"
+      "last_updated": "2026-07-27T19:51:26.014051+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-27T18:10:56.376479+00:00"
+      "last_updated": "2026-07-27T19:51:26.643086+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-27T18:10:56.658565+00:00"
+      "last_updated": "2026-07-27T19:51:27.082643+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 370607,
+      "total": 370641,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-27T18:10:57.050493+00:00",
+      "last_updated": "2026-07-27T19:51:27.751374+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-27T18:10:57.050590+00:00"
+      "last_updated": "2026-07-27T19:51:27.751456+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-27T18:10:57.050595+00:00"
+      "last_updated": "2026-07-27T19:51:27.751461+00:00"
     }
   }
 }
