@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-07-27T16:32:46.850947+00:00",
+  "generated_at": "2026-07-27T18:10:54.707971+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1653,
+      "count": 1654,
       "items": [
+        {
+          "id": "CVE-2025-68686",
+          "vendor": "Fortinet",
+          "product": "FortiOS",
+          "name": "Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+          "date_added": "2026-07-27",
+          "due_date": "2026-08-10",
+          "description": "Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-ex",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-16232",
           "vendor": "Check Point",
@@ -245,19 +255,9 @@
           "due_date": "2026-07-02",
           "description": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable c",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-12569",
-          "vendor": "PTC",
-          "product": "Windchill and FlexPLM",
-          "name": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-          "date_added": "2026-06-25",
-          "due_date": "2026-06-28",
-          "description": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-07-27T16:32:47.104668+00:00",
+      "last_updated": "2026-07-27T18:10:54.849808+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-07-27T16:32:47.662665+00:00"
+      "last_updated": "2026-07-27T18:10:55.419068+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-27T16:32:48.182116+00:00"
+      "last_updated": "2026-07-27T18:10:56.095028+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-07-27T16:32:48.734004+00:00"
+      "last_updated": "2026-07-27T18:10:56.376479+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-07-27T16:32:49.138377+00:00"
+      "last_updated": "2026-07-27T18:10:56.658565+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 370597,
+      "total": 370607,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-07-27T16:32:49.939296+00:00",
+      "last_updated": "2026-07-27T18:10:57.050493+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-27T16:32:49.939375+00:00"
+      "last_updated": "2026-07-27T18:10:57.050590+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-07-27T16:32:49.939380+00:00"
+      "last_updated": "2026-07-27T18:10:57.050595+00:00"
     }
   }
 }
