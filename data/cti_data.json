@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-08-03T18:23:36.648513+00:00",
+  "generated_at": "2026-08-03T20:05:47.864944+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1656,
+      "count": 1657,
       "items": [
+        {
+          "id": "CVE-2026-18577",
+          "vendor": "N-able",
+          "product": "N-central",
+          "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+          "date_added": "2026-08-03",
+          "due_date": "2026-08-06",
+          "description": "N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-20316",
           "vendor": "Cisco",
@@ -245,19 +255,9 @@
           "due_date": "2026-07-10",
           "description": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48282",
-          "vendor": "Adobe",
-          "product": "ColdFusion",
-          "name": "Adobe ColdFusion Path Traversal Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-03T18:23:36.839378+00:00",
+      "last_updated": "2026-08-03T20:05:47.991025+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-03T18:23:37.265146+00:00"
+      "last_updated": "2026-08-03T20:05:48.658736+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-03T18:23:37.716700+00:00"
+      "last_updated": "2026-08-03T20:05:49.284138+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-03T18:23:38.171505+00:00"
+      "last_updated": "2026-08-03T20:05:49.650467+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-03T18:23:38.428178+00:00"
+      "last_updated": "2026-08-03T20:05:50.064860+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 372726,
+      "total": 372740,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-03T18:23:38.704979+00:00",
+      "last_updated": "2026-08-03T20:05:50.588342+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-03T18:23:38.705095+00:00"
+      "last_updated": "2026-08-03T20:05:50.588433+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-03T18:23:38.705102+00:00"
+      "last_updated": "2026-08-03T20:05:50.588438+00:00"
     }
   }
 }
