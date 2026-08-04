@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:47:33.305541+00:00",
+  "generated_at": "2026-08-04T19:15:23.592466+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,7 +257,7 @@
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-04T17:47:33.432314+00:00",
+      "last_updated": "2026-08-04T19:15:23.994084+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-04T17:47:33.963001+00:00"
+      "last_updated": "2026-08-04T19:15:24.690335+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
-      "error": "502 Server Error: Bad Gateway for url: https://mb-api.abuse.ch/api/v1/",
+      "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-04T17:47:34.138848+00:00"
+      "last_updated": "2026-08-04T19:15:25.217969+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-04T17:47:34.407656+00:00"
+      "last_updated": "2026-08-04T19:15:25.649236+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-04T17:47:34.641505+00:00"
+      "last_updated": "2026-08-04T19:15:25.923939+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 372989,
+      "total": 373011,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-04T17:47:35.181925+00:00",
+      "last_updated": "2026-08-04T19:15:27.507102+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-04T17:47:35.182050+00:00"
+      "last_updated": "2026-08-04T19:15:27.507211+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-04T17:47:35.182056+00:00"
+      "last_updated": "2026-08-04T19:15:27.507216+00:00"
     }
   }
 }
