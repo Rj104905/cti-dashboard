@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-08-04T15:59:18.792573+00:00",
+  "generated_at": "2026-08-04T17:47:33.305541+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1657,
+      "count": 1660,
       "items": [
+        {
+          "id": "CVE-2026-18556",
+          "vendor": "N-able",
+          "product": "N-central",
+          "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+          "date_added": "2026-08-04",
+          "due_date": "2026-08-07",
+          "description": "N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-34486",
+          "vendor": "Apache",
+          "product": "Tomcat",
+          "name": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+          "date_added": "2026-08-04",
+          "due_date": "2026-08-07",
+          "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-9198",
+          "vendor": "IBM",
+          "product": "Langflow",
+          "name": "IBM Langflow Code Injection Vulnerability",
+          "date_added": "2026-08-04",
+          "due_date": "2026-08-07",
+          "description": "Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-18577",
           "vendor": "N-able",
@@ -225,39 +255,9 @@
           "due_date": "2026-07-13",
           "description": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48908",
-          "vendor": "JoomShaper",
-          "product": "SP Page Builder",
-          "name": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-55255",
-          "vendor": "Langflow",
-          "product": "Langflow",
-          "name": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-56290",
-          "vendor": "Joomlack",
-          "product": "Page Builder",
-          "name": "Joomlack Page Builder Improper Access Control Vulnerability",
-          "date_added": "2026-07-07",
-          "due_date": "2026-07-10",
-          "description": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-04T15:59:18.984094+00:00",
+      "last_updated": "2026-08-04T17:47:33.432314+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-04T15:59:19.384972+00:00"
+      "last_updated": "2026-08-04T17:47:33.963001+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
-      "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
+      "error": "502 Server Error: Bad Gateway for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-04T15:59:19.856938+00:00"
+      "last_updated": "2026-08-04T17:47:34.138848+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-04T15:59:20.487366+00:00"
+      "last_updated": "2026-08-04T17:47:34.407656+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-04T15:59:20.620017+00:00"
+      "last_updated": "2026-08-04T17:47:34.641505+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 372937,
+      "total": 372989,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-04T15:59:20.855159+00:00",
+      "last_updated": "2026-08-04T17:47:35.181925+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-04T15:59:20.855245+00:00"
+      "last_updated": "2026-08-04T17:47:35.182050+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-04T15:59:20.855251+00:00"
+      "last_updated": "2026-08-04T17:47:35.182056+00:00"
     }
   }
 }
