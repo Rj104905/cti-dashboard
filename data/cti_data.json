@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-08-07T16:30:39.342831+00:00",
+  "generated_at": "2026-08-07T17:29:53.170032+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1661,
+      "count": 1662,
       "items": [
+        {
+          "id": "CVE-2026-8037",
+          "vendor": "Progress",
+          "product": "LoadMaster",
+          "name": "Progress LoadMaster Command Injection Vulnerability",
+          "date_added": "2026-08-07",
+          "due_date": "2026-08-10",
+          "description": "Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-63077",
           "vendor": "JetBrains",
@@ -245,19 +255,9 @@
           "due_date": "2026-07-16",
           "description": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to the /leve",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-56291",
-          "vendor": "Balbooa",
-          "product": "Forms",
-          "name": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "date_added": "2026-07-10",
-          "due_date": "2026-07-13",
-          "description": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-07T16:30:39.459646+00:00",
+      "last_updated": "2026-08-07T17:29:53.283604+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-07T16:30:40.069399+00:00"
+      "last_updated": "2026-08-07T17:29:53.757507+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-07T16:30:40.623907+00:00"
+      "last_updated": "2026-08-07T17:29:54.296213+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-07T16:30:41.179603+00:00"
+      "last_updated": "2026-08-07T17:29:54.494610+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-07T16:30:41.496081+00:00"
+      "last_updated": "2026-08-07T17:29:54.671400+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 374145,
+      "total": 374170,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-07T16:30:42.295727+00:00",
+      "last_updated": "2026-08-07T17:29:54.798162+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-07T16:30:42.295848+00:00"
+      "last_updated": "2026-08-07T17:29:54.798249+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-07T16:30:42.295854+00:00"
+      "last_updated": "2026-08-07T17:29:54.798255+00:00"
     }
   }
 }
