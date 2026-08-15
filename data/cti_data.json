@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:24:31.593565+00:00",
+  "generated_at": "2026-08-15T13:48:15.236006+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,7 +257,7 @@
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-15T13:24:31.712490+00:00",
+      "last_updated": "2026-08-15T13:48:15.326346+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,28 +265,28 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-15T13:24:32.091199+00:00"
+      "last_updated": "2026-08-15T13:48:15.637598+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-15T13:24:32.454567+00:00"
+      "last_updated": "2026-08-15T13:48:16.044575+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-15T13:24:32.884848+00:00"
+      "last_updated": "2026-08-15T13:48:16.173498+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-15T13:24:32.997551+00:00"
+      "last_updated": "2026-08-15T13:48:16.262685+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-15T13:24:33.090606+00:00",
+      "last_updated": "2026-08-15T13:48:16.316575+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-15T13:24:33.090686+00:00"
+      "last_updated": "2026-08-15T13:48:16.316651+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-15T13:24:33.090692+00:00"
+      "last_updated": "2026-08-15T13:48:16.316656+00:00"
     }
   }
 }
