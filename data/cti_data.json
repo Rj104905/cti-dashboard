@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-08-18T17:15:41.419642+00:00",
+  "generated_at": "2026-08-18T17:49:33.552210+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1666,
+      "count": 1670,
       "items": [
+        {
+          "id": "CVE-2026-33824",
+          "vendor": "Microsoft",
+          "product": "Internet Key Exchange (IKE) Service Extensions",
+          "name": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+          "date_added": "2026-08-18",
+          "due_date": "2026-08-21",
+          "description": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-59310",
+          "vendor": "Broadcom",
+          "product": "VMware vCenter",
+          "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
+          "date_added": "2026-08-18",
+          "due_date": "2026-08-21",
+          "description": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-55040",
+          "vendor": "Microsoft",
+          "product": "SharePoint",
+          "name": "Microsoft SharePoint Weak Authentication Vulnerability",
+          "date_added": "2026-08-18",
+          "due_date": "2026-08-21",
+          "description": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-65400",
+          "vendor": "Apple",
+          "product": "macOS",
+          "name": "Apple macOS Improper Authentication Vulnerability",
+          "date_added": "2026-08-18",
+          "due_date": "2026-08-21",
+          "description": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2025-62593",
           "vendor": "Ray-Project",
@@ -215,49 +255,9 @@
           "due_date": "2026-07-19",
           "description": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-39808",
-          "vendor": "Fortinet",
-          "product": "FortiSandbox",
-          "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-          "date_added": "2026-07-16",
-          "due_date": "2026-07-19",
-          "description": "Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-46817",
-          "vendor": "Oracle",
-          "product": "E-Business Suite",
-          "name": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
-          "date_added": "2026-07-15",
-          "due_date": "2026-07-18",
-          "description": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeover of Ora",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2023-4346",
-          "vendor": "KNX Association",
-          "product": "KNX Protocol Connection Authorization Option 1",
-          "name": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
-          "date_added": "2026-07-15",
-          "due_date": "2026-07-29",
-          "description": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to l",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-56155",
-          "vendor": "Microsoft",
-          "product": "Active Directory Federation Services",
-          "name": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
-          "date_added": "2026-07-14",
-          "due_date": "2026-07-28",
-          "description": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-18T17:15:41.548599+00:00",
+      "last_updated": "2026-08-18T17:49:33.730105+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-18T17:15:42.161019+00:00"
+      "last_updated": "2026-08-18T17:49:34.292457+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-18T17:15:42.526033+00:00"
+      "last_updated": "2026-08-18T17:49:34.558415+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-18T17:15:42.910978+00:00"
+      "last_updated": "2026-08-18T17:49:34.820267+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-18T17:15:43.078973+00:00"
+      "last_updated": "2026-08-18T17:49:35.088104+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 379052,
+      "total": 379089,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-18T17:15:43.211878+00:00",
+      "last_updated": "2026-08-18T17:49:35.523541+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-18T17:15:43.211963+00:00"
+      "last_updated": "2026-08-18T17:49:35.523611+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-18T17:15:43.211969+00:00"
+      "last_updated": "2026-08-18T17:49:35.523615+00:00"
     }
   }
 }
