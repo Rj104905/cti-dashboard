@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-08-19T17:15:14.881152+00:00",
+  "generated_at": "2026-08-19T17:46:00.794218+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1670,
+      "count": 1671,
       "items": [
+        {
+          "id": "CVE-2026-64849",
+          "vendor": "MLflow",
+          "product": "MLflow",
+          "name": "MLflow Server-Side Request Forgery Vulnerability",
+          "date_added": "2026-08-19",
+          "due_date": "2026-09-02",
+          "description": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-33824",
           "vendor": "Microsoft",
@@ -245,19 +255,9 @@
           "due_date": "2026-07-19",
           "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-25089",
-          "vendor": "Fortinet",
-          "product": "FortiSandbox",
-          "name": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-          "date_added": "2026-07-16",
-          "due_date": "2026-07-19",
-          "description": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-19T17:15:14.991855+00:00",
+      "last_updated": "2026-08-19T17:46:00.910279+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-19T17:15:15.544393+00:00"
+      "last_updated": "2026-08-19T17:46:01.332656+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-19T17:15:15.805161+00:00"
+      "last_updated": "2026-08-19T17:46:01.779456+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-19T17:15:16.079045+00:00"
+      "last_updated": "2026-08-19T17:46:02.015532+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-19T17:15:16.325816+00:00"
+      "last_updated": "2026-08-19T17:46:02.091738+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 380440,
+      "total": 380477,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-19T17:15:16.593440+00:00",
+      "last_updated": "2026-08-19T17:46:02.345717+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-19T17:15:16.593513+00:00"
+      "last_updated": "2026-08-19T17:46:02.345800+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-19T17:15:16.593518+00:00"
+      "last_updated": "2026-08-19T17:46:02.345805+00:00"
     }
   }
 }
