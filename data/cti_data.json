@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-08-20T17:21:24.812096+00:00",
+  "generated_at": "2026-08-20T17:52:12.297349+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1671,
+      "count": 1673,
       "items": [
+        {
+          "id": "CVE-2026-72530",
+          "vendor": "TrueConf",
+          "product": "Server",
+          "name": "TrueConf Server Code Injection Vulnerability",
+          "date_added": "2026-08-20",
+          "due_date": "2026-09-03",
+          "description": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary code on th",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-72529",
+          "vendor": "TrueConf",
+          "product": "Server",
+          "name": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
+          "date_added": "2026-08-20",
+          "due_date": "2026-08-23",
+          "description": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-64849",
           "vendor": "MLflow",
@@ -235,29 +255,9 @@
           "due_date": "2026-07-24",
           "description": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. ",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2021-27137",
-          "vendor": "DD-WRT",
-          "product": "DD-WRT",
-          "name": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
-          "date_added": "2026-07-21",
-          "due_date": "2026-07-24",
-          "description": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-58644",
-          "vendor": "Microsoft",
-          "product": "SharePoint",
-          "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-          "date_added": "2026-07-16",
-          "due_date": "2026-07-19",
-          "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-20T17:21:24.922577+00:00",
+      "last_updated": "2026-08-20T17:52:12.414128+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,28 +265,28 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-20T17:21:25.270472+00:00"
+      "last_updated": "2026-08-20T17:52:12.927851+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-20T17:21:25.581460+00:00"
+      "last_updated": "2026-08-20T17:52:13.653432+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-20T17:21:25.935173+00:00"
+      "last_updated": "2026-08-20T17:52:13.927577+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-20T17:21:25.985146+00:00"
+      "last_updated": "2026-08-20T17:52:14.170624+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-20T17:21:26.127657+00:00",
+      "last_updated": "2026-08-20T17:52:14.452383+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-20T17:21:26.127738+00:00"
+      "last_updated": "2026-08-20T17:52:14.452461+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-20T17:21:26.127744+00:00"
+      "last_updated": "2026-08-20T17:52:14.452467+00:00"
     }
   }
 }
