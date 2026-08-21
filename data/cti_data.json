@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-08-21T16:02:15.790693+00:00",
+  "generated_at": "2026-08-21T16:48:19.254970+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1673,
+      "count": 1675,
       "items": [
+        {
+          "id": "CVE-2026-69836",
+          "vendor": "Microsoft",
+          "product": "Entra ID ",
+          "name": "Microsoft Entra ID Deserialization of Untrusted Data Vulnerability",
+          "date_added": "2026-08-21",
+          "due_date": "2026-08-24",
+          "description": "Microsoft Entra ID formerly known as Azure Active Directory contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-73570",
+          "vendor": "Synacor",
+          "product": "Zimbra Collaboration Suite (ZCS)",
+          "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+          "date_added": "2026-08-21",
+          "due_date": "2026-08-24",
+          "description": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra us",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-72530",
           "vendor": "TrueConf",
@@ -235,29 +255,9 @@
           "due_date": "2026-08-04",
           "description": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default ",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-63030",
-          "vendor": "WordPress",
-          "product": "Core",
-          "name": "WordPress Core Interpretation Conflict Vulnerability",
-          "date_added": "2026-07-21",
-          "due_date": "2026-07-24",
-          "description": "WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-0770",
-          "vendor": "Langflow",
-          "product": "Langflow",
-          "name": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
-          "date_added": "2026-07-21",
-          "due_date": "2026-07-24",
-          "description": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-21T16:02:15.967324+00:00",
+      "last_updated": "2026-08-21T16:48:19.526504+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-21T16:02:16.537274+00:00"
+      "last_updated": "2026-08-21T16:48:19.974863+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-21T16:02:16.997119+00:00"
+      "last_updated": "2026-08-21T16:48:20.443380+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-21T16:02:17.224387+00:00"
+      "last_updated": "2026-08-21T16:48:20.933642+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-21T16:02:17.604268+00:00"
+      "last_updated": "2026-08-21T16:48:21.080479+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 381452,
+      "total": 381461,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-21T16:02:17.825906+00:00",
+      "last_updated": "2026-08-21T16:48:21.257651+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-21T16:02:17.825981+00:00"
+      "last_updated": "2026-08-21T16:48:21.257721+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-21T16:02:17.825985+00:00"
+      "last_updated": "2026-08-21T16:48:21.257725+00:00"
     }
   }
 }
