@@ -1,11 +1,71 @@
 {
-  "generated_at": "2026-08-26T16:33:02.339618+00:00",
+  "generated_at": "2026-08-26T18:20:14.712363+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1676,
+      "count": 1682,
       "items": [
+        {
+          "id": "CVE-2021-23758",
+          "vendor": "Ajax.NET Professional",
+          "product": "Ajax.NET Professional",
+          "name": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+          "date_added": "2026-08-26",
+          "due_date": "2026-09-09",
+          "description": "Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users ar",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2015-3246",
+          "vendor": "Red Hat",
+          "product": "Libuser",
+          "name": "Red Hat Libuser Race Condition Vulnerability",
+          "date_added": "2026-08-26",
+          "due_date": "2026-09-09",
+          "description": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2015-5287",
+          "vendor": "Red Hat",
+          "product": "Automatic Bug Reporting Tool",
+          "name": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
+          "date_added": "2026-08-26",
+          "due_date": "2026-09-09",
+          "description": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name. The impacted product(s) could b",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2022-0995",
+          "vendor": "Linux",
+          "product": "Kernel",
+          "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+          "date_added": "2026-08-26",
+          "due_date": "2026-09-09",
+          "description": "Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-8452",
+          "vendor": "Citrix",
+          "product": "NetScaler ADC and NetScaler Gateway",
+          "name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+          "date_added": "2026-08-26",
+          "due_date": "2026-08-29",
+          "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service. ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2019-1068",
+          "vendor": "Microsoft",
+          "product": "SQL Server",
+          "name": "Microsoft SQL Server Remote Code Execution Vulnerability",
+          "date_added": "2026-08-26",
+          "due_date": "2026-08-29",
+          "description": "Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-60004",
           "vendor": "Gitea",
@@ -195,69 +255,9 @@
           "due_date": "2026-08-07",
           "description": "Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-18577",
-          "vendor": "N-able",
-          "product": "N-central",
-          "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-          "date_added": "2026-08-03",
-          "due_date": "2026-08-06",
-          "description": "N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20316",
-          "vendor": "Cisco",
-          "product": "Secure Firewall Management Center (FMC)",
-          "name": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-          "date_added": "2026-07-29",
-          "due_date": "2026-08-01",
-          "description": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privilege",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2025-68686",
-          "vendor": "Fortinet",
-          "product": "FortiOS",
-          "name": "Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-          "date_added": "2026-07-27",
-          "due_date": "2026-08-10",
-          "description": "Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-ex",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-16812",
-          "vendor": "Arista",
-          "product": "VeloCloud Orchestrator",
-          "name": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-          "date_added": "2026-07-27",
-          "due_date": "2026-07-30",
-          "description": "Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, int",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-16232",
-          "vendor": "Check Point",
-          "product": "SmartConsole",
-          "name": "Check Point SmartConsole Improper Authentication Vulnerability",
-          "date_added": "2026-07-22",
-          "due_date": "2026-07-25",
-          "description": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-50522",
-          "vendor": "Microsoft",
-          "product": "SharePoint",
-          "name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
-          "date_added": "2026-07-22",
-          "due_date": "2026-07-25",
-          "description": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-26T16:33:02.497643+00:00",
+      "last_updated": "2026-08-26T18:20:14.937896+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-26T16:33:02.970368+00:00"
+      "last_updated": "2026-08-26T18:20:15.361017+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-26T16:33:03.495180+00:00"
+      "last_updated": "2026-08-26T18:20:15.822984+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-26T16:33:03.846382+00:00"
+      "last_updated": "2026-08-26T18:20:16.097248+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-26T16:33:04.090109+00:00"
+      "last_updated": "2026-08-26T18:20:16.319795+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 383268,
+      "total": 383286,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-26T16:33:04.248677+00:00",
+      "last_updated": "2026-08-26T18:20:16.542020+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-26T16:33:04.248761+00:00"
+      "last_updated": "2026-08-26T18:20:16.542088+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-26T16:33:04.248766+00:00"
+      "last_updated": "2026-08-26T18:20:16.542094+00:00"
     }
   }
 }
