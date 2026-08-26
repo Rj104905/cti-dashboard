@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:11:44.683928+00:00",
+  "generated_at": "2026-08-26T16:33:02.339618+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -24,7 +24,7 @@
           "date_added": "2026-08-24",
           "due_date": "2026-08-27",
           "description": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data or",
-          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable."
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
           "id": "CVE-2026-73570",
@@ -257,7 +257,7 @@
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-26T14:11:44.891943+00:00",
+      "last_updated": "2026-08-26T16:33:02.497643+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-26T14:11:45.358256+00:00"
+      "last_updated": "2026-08-26T16:33:02.970368+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-26T14:11:45.835178+00:00"
+      "last_updated": "2026-08-26T16:33:03.495180+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-26T14:11:46.363538+00:00"
+      "last_updated": "2026-08-26T16:33:03.846382+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-26T14:11:46.626130+00:00"
+      "last_updated": "2026-08-26T16:33:04.090109+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 382999,
+      "total": 383268,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-26T14:11:47.247445+00:00",
+      "last_updated": "2026-08-26T16:33:04.248677+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-26T14:11:47.247524+00:00"
+      "last_updated": "2026-08-26T16:33:04.248761+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-26T14:11:47.247530+00:00"
+      "last_updated": "2026-08-26T16:33:04.248766+00:00"
     }
   }
 }
