@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-08-27T16:35:46.435335+00:00",
+  "generated_at": "2026-08-28T01:06:58.878588+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1682,
+      "count": 1685,
       "items": [
+        {
+          "id": "CVE-2023-49105",
+          "vendor": "ownCloud",
+          "product": "ownCloud",
+          "name": "ownCloud Improper Authentication Vulnerability",
+          "date_added": "2026-08-27",
+          "due_date": "2026-08-30",
+          "description": "ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-53362",
+          "vendor": "Linux",
+          "product": "Kernel",
+          "name": "Linux Kernel Unspecified Vulnerability",
+          "date_added": "2026-08-27",
+          "due_date": "2026-08-30",
+          "description": "Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux. ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-66384",
+          "vendor": "JFrog",
+          "product": "Artifactory",
+          "name": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+          "date_added": "2026-08-27",
+          "due_date": "2026-09-10",
+          "description": "JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under specific remote-repository conditions.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2021-23758",
           "vendor": "Ajax.NET Professional",
@@ -225,39 +255,9 @@
           "due_date": "2026-08-08",
           "description": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-18556",
-          "vendor": "N-able",
-          "product": "N-central",
-          "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-          "date_added": "2026-08-04",
-          "due_date": "2026-08-07",
-          "description": "N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-34486",
-          "vendor": "Apache",
-          "product": "Tomcat",
-          "name": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
-          "date_added": "2026-08-04",
-          "due_date": "2026-08-07",
-          "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE\u20112025\u201124813.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-9198",
-          "vendor": "IBM",
-          "product": "Langflow",
-          "name": "IBM Langflow Code Injection Vulnerability",
-          "date_added": "2026-08-04",
-          "due_date": "2026-08-07",
-          "description": "Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-27T16:35:46.595175+00:00",
+      "last_updated": "2026-08-28T01:06:59.132420+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-27T16:35:47.119564+00:00"
+      "last_updated": "2026-08-28T01:06:59.802010+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-27T16:35:47.592813+00:00"
+      "last_updated": "2026-08-28T01:07:00.443074+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-27T16:35:47.868846+00:00"
+      "last_updated": "2026-08-28T01:07:00.955084+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-27T16:35:48.107103+00:00"
+      "last_updated": "2026-08-28T01:07:01.388256+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 383548,
+      "total": 383986,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-27T16:35:48.354755+00:00",
+      "last_updated": "2026-08-28T01:07:01.680296+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-27T16:35:48.354833+00:00"
+      "last_updated": "2026-08-28T01:07:01.680380+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-27T16:35:48.354838+00:00"
+      "last_updated": "2026-08-28T01:07:01.680385+00:00"
     }
   }
 }
