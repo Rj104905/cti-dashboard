@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T03:50:56.751836+00:00",
+  "generated_at": "2026-08-29T10:30:59.795817+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,41 +257,41 @@
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-29T03:50:56.843646+00:00",
+      "last_updated": "2026-08-29T10:30:59.936124+00:00",
       "status": "ok"
     },
     "urlhaus": {
       "source": "URLhaus",
       "status": "error",
-      "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
+      "error": "HTTPSConnectionPool(host='urlhaus-api.abuse.ch', port=443): Max retries exceeded with url: /v1/urls/recent/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
       "items": [],
-      "last_updated": "2026-08-29T03:50:57.256550+00:00"
+      "last_updated": "2026-08-29T10:31:00.305802+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-29T03:50:57.649065+00:00"
+      "last_updated": "2026-08-29T10:31:00.859482+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-29T03:50:58.010876+00:00"
+      "last_updated": "2026-08-29T10:31:01.114647+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
-      "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
+      "error": "503 Server Error: certificate has expired for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-29T03:50:58.223109+00:00"
+      "last_updated": "2026-08-29T10:31:02.104556+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 384514,
+      "total": 384541,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-29T03:50:58.303094+00:00",
+      "last_updated": "2026-08-29T10:31:02.398097+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-29T03:50:58.303153+00:00"
+      "last_updated": "2026-08-29T10:31:02.398173+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-29T03:50:58.303157+00:00"
+      "last_updated": "2026-08-29T10:31:02.398179+00:00"
     }
   }
 }
