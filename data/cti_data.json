@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T15:17:55.455015+00:00",
+  "generated_at": "2026-08-29T18:40:55.213154+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,7 +257,7 @@
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-29T15:17:55.575594+00:00",
+      "last_updated": "2026-08-29T18:40:55.473662+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "HTTPSConnectionPool(host='urlhaus-api.abuse.ch', port=443): Max retries exceeded with url: /v1/urls/recent/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
       "items": [],
-      "last_updated": "2026-08-29T15:17:55.820572+00:00"
+      "last_updated": "2026-08-29T18:40:55.868634+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-29T15:17:56.154933+00:00"
+      "last_updated": "2026-08-29T18:40:56.489396+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-29T15:17:56.360068+00:00"
+      "last_updated": "2026-08-29T18:40:57.091356+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "503 Server Error: certificate has expired for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-29T15:17:57.082716+00:00"
+      "last_updated": "2026-08-29T18:40:58.204940+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 384554,
+      "total": 384573,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-29T15:17:57.237627+00:00",
+      "last_updated": "2026-08-29T18:40:58.778788+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-29T15:17:57.237707+00:00"
+      "last_updated": "2026-08-29T18:40:58.778867+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-29T15:17:57.237712+00:00"
+      "last_updated": "2026-08-29T18:40:58.778873+00:00"
     }
   }
 }
