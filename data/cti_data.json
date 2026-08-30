@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T06:51:46.670472+00:00",
+  "generated_at": "2026-08-30T12:20:51.796229+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,41 +257,41 @@
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-30T06:51:46.777125+00:00",
+      "last_updated": "2026-08-30T12:20:51.975097+00:00",
       "status": "ok"
     },
     "urlhaus": {
       "source": "URLhaus",
       "status": "error",
-      "error": "HTTPSConnectionPool(host='urlhaus-api.abuse.ch', port=443): Max retries exceeded with url: /v1/urls/recent/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-30T06:51:47.082577+00:00"
+      "last_updated": "2026-08-30T12:20:52.553080+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-30T06:51:47.522362+00:00"
+      "last_updated": "2026-08-30T12:20:53.086678+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-30T06:51:47.744955+00:00"
+      "last_updated": "2026-08-30T12:20:53.661496+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
-      "error": "503 Server Error: certificate has expired for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
+      "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-30T06:51:48.765252+00:00"
+      "last_updated": "2026-08-30T12:20:53.899351+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 384589,
+      "total": 384613,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-30T06:51:48.821599+00:00",
+      "last_updated": "2026-08-30T12:20:54.044833+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-30T06:51:48.821672+00:00"
+      "last_updated": "2026-08-30T12:20:54.044923+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-30T06:51:48.821678+00:00"
+      "last_updated": "2026-08-30T12:20:54.044928+00:00"
     }
   }
 }
