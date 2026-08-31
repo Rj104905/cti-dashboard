@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-08-31T13:38:34.882094+00:00",
+  "generated_at": "2026-08-31T19:38:04.119594+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1685,
+      "count": 1687,
       "items": [
+        {
+          "id": "CVE-2026-82078",
+          "vendor": "PaperCut",
+          "product": "NG/MF",
+          "name": "PaperCut NG/MF Unsafe Reflection Vulnerability",
+          "date_added": "2026-08-31",
+          "due_date": "2026-09-14",
+          "description": "PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut serv",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-81578",
+          "vendor": "PaperCut",
+          "product": "NG/MF",
+          "name": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
+          "date_added": "2026-08-31",
+          "due_date": "2026-09-14",
+          "description": "PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be chained with CVE-2026-82078.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2023-49105",
           "vendor": "ownCloud",
@@ -235,29 +255,9 @@
           "due_date": "2026-08-14",
           "description": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could ch",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-8037",
-          "vendor": "Progress",
-          "product": "LoadMaster",
-          "name": "Progress LoadMaster Command Injection Vulnerability",
-          "date_added": "2026-08-07",
-          "due_date": "2026-08-10",
-          "description": "Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-63077",
-          "vendor": "JetBrains",
-          "product": "TeamCity",
-          "name": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
-          "date_added": "2026-08-05",
-          "due_date": "2026-08-08",
-          "description": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-08-31T13:38:35.141557+00:00",
+      "last_updated": "2026-08-31T19:38:04.240690+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-08-31T13:38:35.774872+00:00"
+      "last_updated": "2026-08-31T19:38:04.646278+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-31T13:38:36.236391+00:00"
+      "last_updated": "2026-08-31T19:38:05.181881+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-08-31T13:38:36.470857+00:00"
+      "last_updated": "2026-08-31T19:38:05.337399+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-08-31T13:38:36.739289+00:00"
+      "last_updated": "2026-08-31T19:38:05.609853+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 384811,
+      "total": 384944,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-08-31T13:38:37.044604+00:00",
+      "last_updated": "2026-08-31T19:38:05.740411+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-31T13:38:37.044688+00:00"
+      "last_updated": "2026-08-31T19:38:05.740496+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-08-31T13:38:37.044694+00:00"
+      "last_updated": "2026-08-31T19:38:05.740501+00:00"
     }
   }
 }
