@@ -1,11 +1,81 @@
 {
-  "generated_at": "2026-09-02T15:16:26.637355+00:00",
+  "generated_at": "2026-09-02T18:48:42.750865+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1687,
+      "count": 1694,
       "items": [
+        {
+          "id": "CVE-2026-59822",
+          "vendor": "BerriAI",
+          "product": "LiteLLM",
+          "name": "BerriAI LiteLLM Improper Authentication Vulnerability",
+          "date_added": "2026-09-02",
+          "due_date": "2026-09-16",
+          "description": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-48710",
+          "vendor": "Kludex",
+          "product": "Starlette",
+          "name": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
+          "date_added": "2026-09-02",
+          "due_date": "2026-09-16",
+          "description": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-49869",
+          "vendor": "Kestra",
+          "product": "Kestra OSS",
+          "name": "Kestra OSS OS Command Injection Vulnerability",
+          "date_added": "2026-09-02",
+          "due_date": "2026-09-05",
+          "description": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-82329",
+          "vendor": "JFrog",
+          "product": "Artifactory",
+          "name": "JFrog Artifactory Improper Authentication Vulnerability",
+          "date_added": "2026-09-02",
+          "due_date": "2026-09-05",
+          "description": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-9586",
+          "vendor": "Sangoma",
+          "product": "Switchvox",
+          "name": "Sangoma Switchvox SQL Injection Vulnerability",
+          "date_added": "2026-09-02",
+          "due_date": "2026-09-05",
+          "description": "Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and rem",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-83548",
+          "vendor": "SonicWall",
+          "product": "SMA1000 Appliances",
+          "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+          "date_added": "2026-09-02",
+          "due_date": "2026-09-05",
+          "description": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-83549",
+          "vendor": "SonicWall",
+          "product": "SMA1000 Appliances",
+          "name": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
+          "date_added": "2026-09-02",
+          "due_date": "2026-09-05",
+          "description": "SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-82078",
           "vendor": "PaperCut",
@@ -185,79 +255,9 @@
           "due_date": "2026-08-21",
           "description": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-59310",
-          "vendor": "Broadcom",
-          "product": "VMware vCenter",
-          "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
-          "date_added": "2026-08-18",
-          "due_date": "2026-08-21",
-          "description": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-55040",
-          "vendor": "Microsoft",
-          "product": "SharePoint",
-          "name": "Microsoft SharePoint Weak Authentication Vulnerability",
-          "date_added": "2026-08-18",
-          "due_date": "2026-08-21",
-          "description": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-65400",
-          "vendor": "Apple",
-          "product": "macOS",
-          "name": "Apple macOS Improper Authentication Vulnerability",
-          "date_added": "2026-08-18",
-          "due_date": "2026-08-21",
-          "description": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2025-62593",
-          "vendor": "Ray-Project",
-          "product": "Ray",
-          "name": "Ray-Project Ray Code Injection Vulnerability",
-          "date_added": "2026-08-17",
-          "due_date": "2026-08-20",
-          "description": "Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Firefox and Safari.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20349",
-          "vendor": "Cisco",
-          "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
-          "name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
-          "date_added": "2026-08-11",
-          "due_date": "2026-08-14",
-          "description": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a d",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-68820",
-          "vendor": "Microsoft",
-          "product": "Windows Ancillary Function Driver for WinSock ",
-          "name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
-          "date_added": "2026-08-11",
-          "due_date": "2026-08-25",
-          "description": "Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-72898",
-          "vendor": "Metabase",
-          "product": "Metabase",
-          "name": "Metabase SQL Injection Vulnerability",
-          "date_added": "2026-08-11",
-          "due_date": "2026-08-14",
-          "description": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could ch",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-02T15:16:26.767352+00:00",
+      "last_updated": "2026-09-02T18:48:42.964301+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-02T15:16:27.170789+00:00"
+      "last_updated": "2026-09-02T18:48:43.469457+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-02T15:16:27.457049+00:00"
+      "last_updated": "2026-09-02T18:48:43.983401+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-02T15:16:27.796103+00:00"
+      "last_updated": "2026-09-02T18:48:44.277745+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-02T15:16:27.952398+00:00"
+      "last_updated": "2026-09-02T18:48:44.435901+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 385681,
+      "total": 385827,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-02T15:16:28.152971+00:00",
+      "last_updated": "2026-09-02T18:48:44.594449+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-02T15:16:28.153053+00:00"
+      "last_updated": "2026-09-02T18:48:44.594531+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-02T15:16:28.153060+00:00"
+      "last_updated": "2026-09-02T18:48:44.594535+00:00"
     }
   }
 }
