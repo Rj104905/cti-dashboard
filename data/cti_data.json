@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-09-04T17:12:32.604738+00:00",
+  "generated_at": "2026-09-04T19:33:30.456817+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1694,
+      "count": 1695,
       "items": [
+        {
+          "id": "CVE-2026-85046",
+          "vendor": "Google",
+          "product": "Chromium V8",
+          "name": "Google Chromium V8 Type Confusion Vulnerability",
+          "date_added": "2026-09-04",
+          "due_date": "2026-09-18",
+          "description": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-59822",
           "vendor": "BerriAI",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-02",
           "description": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-33824",
-          "vendor": "Microsoft",
-          "product": "Internet Key Exchange (IKE) Service Extensions",
-          "name": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-          "date_added": "2026-08-18",
-          "due_date": "2026-08-21",
-          "description": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-04T17:12:32.734591+00:00",
+      "last_updated": "2026-09-04T19:33:30.577160+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-04T17:12:33.294010+00:00"
+      "last_updated": "2026-09-04T19:33:30.889787+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-04T17:12:33.859205+00:00"
+      "last_updated": "2026-09-04T19:33:31.237043+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-04T17:12:34.356890+00:00"
+      "last_updated": "2026-09-04T19:33:31.376345+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-04T17:12:34.666915+00:00"
+      "last_updated": "2026-09-04T19:33:31.518657+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 386564,
+      "total": 386711,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-04T17:12:34.978805+00:00",
+      "last_updated": "2026-09-04T19:33:31.608369+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-04T17:12:34.978879+00:00"
+      "last_updated": "2026-09-04T19:33:31.608454+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-04T17:12:34.978883+00:00"
+      "last_updated": "2026-09-04T19:33:31.608459+00:00"
     }
   }
 }
