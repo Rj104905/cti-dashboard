@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-09-08T16:52:42.907346+00:00",
+  "generated_at": "2026-09-08T19:37:58.075532+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1695,
+      "count": 1699,
       "items": [
+        {
+          "id": "CVE-2026-75650",
+          "vendor": "Adobe",
+          "product": "Commerce and Magento",
+          "name": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+          "date_added": "2026-09-08",
+          "due_date": "2026-09-11",
+          "description": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-81963",
+          "vendor": "Microsoft",
+          "product": "Windows",
+          "name": "Microsoft Windows Link Following Vulnerability",
+          "date_added": "2026-09-08",
+          "due_date": "2026-09-22",
+          "description": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-86218",
+          "vendor": "N-able",
+          "product": "N-central",
+          "name": "N-able N-central Static Code Injection Vulnerability",
+          "date_added": "2026-09-08",
+          "due_date": "2026-09-11",
+          "description": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-85880",
+          "vendor": "Microsoft",
+          "product": "Windows",
+          "name": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
+          "date_added": "2026-09-08",
+          "due_date": "2026-09-22",
+          "description": "Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-85046",
           "vendor": "Google",
@@ -215,49 +255,9 @@
           "due_date": "2026-08-27",
           "description": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data or",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-73570",
-          "vendor": "Synacor",
-          "product": "Zimbra Collaboration Suite (ZCS)",
-          "name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
-          "date_added": "2026-08-21",
-          "due_date": "2026-08-24",
-          "description": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra us",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-72530",
-          "vendor": "TrueConf",
-          "product": "Server",
-          "name": "TrueConf Server Code Injection Vulnerability",
-          "date_added": "2026-08-20",
-          "due_date": "2026-09-03",
-          "description": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary code on th",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-72529",
-          "vendor": "TrueConf",
-          "product": "Server",
-          "name": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-08-20",
-          "due_date": "2026-08-23",
-          "description": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-64849",
-          "vendor": "MLflow",
-          "product": "MLflow",
-          "name": "MLflow Server-Side Request Forgery Vulnerability",
-          "date_added": "2026-08-19",
-          "due_date": "2026-09-02",
-          "description": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-08T16:52:43.021637+00:00",
+      "last_updated": "2026-09-08T19:37:58.204944+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-08T16:52:43.520521+00:00"
+      "last_updated": "2026-09-08T19:37:58.733879+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-08T16:52:44.088467+00:00"
+      "last_updated": "2026-09-08T19:37:59.260881+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-08T16:52:44.320188+00:00"
+      "last_updated": "2026-09-08T19:37:59.505513+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-08T16:52:44.578892+00:00"
+      "last_updated": "2026-09-08T19:37:59.663239+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 387445,
+      "total": 388582,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-08T16:52:44.916485+00:00",
+      "last_updated": "2026-09-08T19:37:59.768732+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-08T16:52:44.916556+00:00"
+      "last_updated": "2026-09-08T19:37:59.768842+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-08T16:52:44.916561+00:00"
+      "last_updated": "2026-09-08T19:37:59.768849+00:00"
     }
   }
 }
