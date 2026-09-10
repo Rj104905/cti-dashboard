@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-09-10T17:10:30.117201+00:00",
+  "generated_at": "2026-09-10T19:38:43.182678+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1703,
+      "count": 1705,
       "items": [
+        {
+          "id": "CVE-2026-86060",
+          "vendor": "MikroTik",
+          "product": "RouterOS",
+          "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+          "date_added": "2026-09-10",
+          "due_date": "2026-09-13",
+          "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-67277",
+          "vendor": "MikroTik",
+          "product": "RouterOS",
+          "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+          "date_added": "2026-09-10",
+          "due_date": "2026-09-13",
+          "description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-19490",
           "vendor": "Citrix",
@@ -235,29 +255,9 @@
           "due_date": "2026-09-09",
           "description": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2015-5287",
-          "vendor": "Red Hat",
-          "product": "Automatic Bug Reporting Tool",
-          "name": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
-          "date_added": "2026-08-26",
-          "due_date": "2026-09-09",
-          "description": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name. The impacted product(s) could b",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2022-0995",
-          "vendor": "Linux",
-          "product": "Kernel",
-          "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
-          "date_added": "2026-08-26",
-          "due_date": "2026-09-09",
-          "description": "Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-10T17:10:30.381626+00:00",
+      "last_updated": "2026-09-10T19:38:43.378559+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-10T17:10:31.006570+00:00"
+      "last_updated": "2026-09-10T19:38:43.761558+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-10T17:10:31.761461+00:00"
+      "last_updated": "2026-09-10T19:38:44.065549+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-10T17:10:32.263674+00:00"
+      "last_updated": "2026-09-10T19:38:44.201495+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-10T17:10:32.638590+00:00"
+      "last_updated": "2026-09-10T19:38:44.365996+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 389706,
+      "total": 389767,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-10T17:10:33.095093+00:00",
+      "last_updated": "2026-09-10T19:38:44.466447+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-10T17:10:33.095179+00:00"
+      "last_updated": "2026-09-10T19:38:44.466532+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-10T17:10:33.095184+00:00"
+      "last_updated": "2026-09-10T19:38:44.466537+00:00"
     }
   }
 }
