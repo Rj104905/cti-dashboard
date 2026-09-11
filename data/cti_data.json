@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-09-11T18:26:53.324359+00:00",
+  "generated_at": "2026-09-11T21:05:48.652495+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1705,
+      "count": 1709,
       "items": [
+        {
+          "id": "CVE-2026-84869",
+          "vendor": "ConnectWise",
+          "product": "ScreenConnect",
+          "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
+          "date_added": "2026-09-11",
+          "due_date": "2026-09-14",
+          "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-42016",
+          "vendor": "JFrog",
+          "product": "Artifactory",
+          "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
+          "date_added": "2026-09-11",
+          "due_date": "2026-09-25",
+          "description": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-42018",
+          "vendor": "JFrog",
+          "product": "Artifactory",
+          "name": "JFrog Artifactory Improper Authentication Vulnerability",
+          "date_added": "2026-09-11",
+          "due_date": "2026-09-25",
+          "description": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-85706",
+          "vendor": "GitLab",
+          "product": "Community Edition and Enterprise Edition",
+          "name": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+          "date_added": "2026-09-11",
+          "due_date": "2026-09-14",
+          "description": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits A",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-86060",
           "vendor": "MikroTik",
@@ -215,49 +255,9 @@
           "due_date": "2026-08-30",
           "description": "ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-53362",
-          "vendor": "Linux",
-          "product": "Kernel",
-          "name": "Linux Kernel Unspecified Vulnerability",
-          "date_added": "2026-08-27",
-          "due_date": "2026-08-30",
-          "description": "Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to Suse, Red Hat, and other products using Linux. ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-66384",
-          "vendor": "JFrog",
-          "product": "Artifactory",
-          "name": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
-          "date_added": "2026-08-27",
-          "due_date": "2026-09-10",
-          "description": "JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under specific remote-repository conditions.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2021-23758",
-          "vendor": "Ajax.NET Professional",
-          "product": "Ajax.NET Professional",
-          "name": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-          "date_added": "2026-08-26",
-          "due_date": "2026-09-09",
-          "description": "Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users ar",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2015-3246",
-          "vendor": "Red Hat",
-          "product": "Libuser",
-          "name": "Red Hat Libuser Race Condition Vulnerability",
-          "date_added": "2026-08-26",
-          "due_date": "2026-09-09",
-          "description": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-11T18:26:53.435933+00:00",
+      "last_updated": "2026-09-11T21:05:48.952412+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-11T18:26:53.829830+00:00"
+      "last_updated": "2026-09-11T21:05:49.375414+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-11T18:26:54.225213+00:00"
+      "last_updated": "2026-09-11T21:05:49.837293+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-11T18:26:54.358074+00:00"
+      "last_updated": "2026-09-11T21:05:50.253670+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-11T18:26:54.504062+00:00"
+      "last_updated": "2026-09-11T21:05:50.635644+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 390050,
+      "total": 390530,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-11T18:26:54.604398+00:00",
+      "last_updated": "2026-09-11T21:05:50.867652+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-11T18:26:54.604475+00:00"
+      "last_updated": "2026-09-11T21:05:50.867736+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-11T18:26:54.604480+00:00"
+      "last_updated": "2026-09-11T21:05:50.867742+00:00"
     }
   }
 }
