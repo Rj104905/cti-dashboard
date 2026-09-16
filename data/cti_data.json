@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-09-16T12:03:35.844281+00:00",
+  "generated_at": "2026-09-16T16:48:24.425191+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1710,
+      "count": 1711,
       "items": [
+        {
+          "id": "CVE-2026-58704",
+          "vendor": "Google",
+          "product": "Pixel",
+          "name": "Google Pixel Improper Authorization Vulnerability",
+          "date_added": "2026-09-16",
+          "due_date": "2026-09-19",
+          "description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-76461",
           "vendor": "Cisco",
@@ -23,7 +33,7 @@
           "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
           "date_added": "2026-09-11",
           "due_date": "2026-09-14",
-          "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation.",
+          "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -33,7 +43,7 @@
           "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
           "date_added": "2026-09-11",
           "due_date": "2026-09-25",
-          "description": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+          "description": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -63,7 +73,7 @@
           "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
           "date_added": "2026-09-10",
           "due_date": "2026-09-13",
-          "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
+          "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -73,7 +83,7 @@
           "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
           "date_added": "2026-09-10",
           "due_date": "2026-09-13",
-          "description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+          "description": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -245,19 +255,9 @@
           "due_date": "2026-09-14",
           "description": "PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut serv",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-81578",
-          "vendor": "PaperCut",
-          "product": "NG/MF",
-          "name": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-08-31",
-          "due_date": "2026-09-14",
-          "description": "PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be chained with CVE-2026-82078.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-16T12:03:36.111764+00:00",
+      "last_updated": "2026-09-16T16:48:24.640913+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-16T12:03:36.575114+00:00"
+      "last_updated": "2026-09-16T16:48:25.005464+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-16T12:03:37.197026+00:00"
+      "last_updated": "2026-09-16T16:48:25.371209+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-16T12:03:37.458452+00:00"
+      "last_updated": "2026-09-16T16:48:25.705369+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-16T12:03:37.699038+00:00"
+      "last_updated": "2026-09-16T16:48:25.863020+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 393454,
+      "total": 393598,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-16T12:03:38.019461+00:00",
+      "last_updated": "2026-09-16T16:48:25.969908+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-16T12:03:38.019543+00:00"
+      "last_updated": "2026-09-16T16:48:25.969986+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-16T12:03:38.019549+00:00"
+      "last_updated": "2026-09-16T16:48:25.969992+00:00"
     }
   }
 }
