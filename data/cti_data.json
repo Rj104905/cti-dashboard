@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T16:48:24.425191+00:00",
+  "generated_at": "2026-09-16T19:46:45.183189+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1711,
+      "count": 1713,
       "items": [
         {
           "id": "CVE-2026-58704",
@@ -14,6 +14,26 @@
           "date_added": "2026-09-16",
           "due_date": "2026-09-19",
           "description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-76460",
+          "vendor": "Cisco",
+          "product": "Identity Services Engine",
+          "name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+          "date_added": "2026-09-16",
+          "due_date": "2026-09-19",
+          "description": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-87886",
+          "vendor": "Acronis",
+          "product": "Backup",
+          "name": "Acronis Backup Incorrect Default Permissions Vulnerability",
+          "date_added": "2026-09-16",
+          "due_date": "2026-09-19",
+          "description": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -235,29 +255,9 @@
           "due_date": "2026-09-05",
           "description": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-83549",
-          "vendor": "SonicWall",
-          "product": "SMA1000 Appliances",
-          "name": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
-          "date_added": "2026-09-02",
-          "due_date": "2026-09-05",
-          "description": "SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-82078",
-          "vendor": "PaperCut",
-          "product": "NG/MF",
-          "name": "PaperCut NG/MF Unsafe Reflection Vulnerability",
-          "date_added": "2026-08-31",
-          "due_date": "2026-09-14",
-          "description": "PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut serv",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-16T16:48:24.640913+00:00",
+      "last_updated": "2026-09-16T19:46:45.268406+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-16T16:48:25.005464+00:00"
+      "last_updated": "2026-09-16T19:46:45.691678+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-16T16:48:25.371209+00:00"
+      "last_updated": "2026-09-16T19:46:46.043107+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-16T16:48:25.705369+00:00"
+      "last_updated": "2026-09-16T19:46:46.265294+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-16T16:48:25.863020+00:00"
+      "last_updated": "2026-09-16T19:46:46.333581+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 393598,
+      "total": 393688,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-16T16:48:25.969908+00:00",
+      "last_updated": "2026-09-16T19:46:46.509599+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-16T16:48:25.969986+00:00"
+      "last_updated": "2026-09-16T19:46:46.509686+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-16T16:48:25.969992+00:00"
+      "last_updated": "2026-09-16T19:46:46.509693+00:00"
     }
   }
 }
