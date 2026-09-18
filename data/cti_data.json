@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-09-18T11:56:28.367827+00:00",
+  "generated_at": "2026-09-18T15:29:28.565710+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1713,
+      "count": 1715,
       "items": [
+        {
+          "id": "CVE-2025-39964",
+          "vendor": "Linux",
+          "product": "Kernel",
+          "name": "Linux Kernel Race Condition Vulnerability",
+          "date_added": "2026-09-18",
+          "due_date": "2026-09-21",
+          "description": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-53266",
+          "vendor": "Linux",
+          "product": "Kernel",
+          "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+          "date_added": "2026-09-18",
+          "due_date": "2026-09-21",
+          "description": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted p",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-58704",
           "vendor": "Google",
@@ -235,29 +255,9 @@
           "due_date": "2026-09-05",
           "description": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. ",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-9586",
-          "vendor": "Sangoma",
-          "product": "Switchvox",
-          "name": "Sangoma Switchvox SQL Injection Vulnerability",
-          "date_added": "2026-09-02",
-          "due_date": "2026-09-05",
-          "description": "Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and rem",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-83548",
-          "vendor": "SonicWall",
-          "product": "SMA1000 Appliances",
-          "name": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-          "date_added": "2026-09-02",
-          "due_date": "2026-09-05",
-          "description": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-18T11:56:28.462046+00:00",
+      "last_updated": "2026-09-18T15:29:28.970550+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-18T11:56:28.794434+00:00"
+      "last_updated": "2026-09-18T15:29:29.577969+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-18T11:56:29.107649+00:00"
+      "last_updated": "2026-09-18T15:29:30.104478+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-18T11:56:29.279158+00:00"
+      "last_updated": "2026-09-18T15:29:30.649302+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-18T11:56:29.324536+00:00"
+      "last_updated": "2026-09-18T15:29:31.087484+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 395079,
+      "total": 395147,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-18T11:56:29.446221+00:00",
+      "last_updated": "2026-09-18T15:29:31.528668+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-18T11:56:29.446308+00:00"
+      "last_updated": "2026-09-18T15:29:31.528756+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-18T11:56:29.446313+00:00"
+      "last_updated": "2026-09-18T15:29:31.528761+00:00"
     }
   }
 }
