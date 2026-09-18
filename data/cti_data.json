@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T18:35:58.474690+00:00",
+  "generated_at": "2026-09-18T21:13:54.322660+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1715,
+      "count": 1716,
       "items": [
         {
           "id": "CVE-2025-39964",
@@ -24,6 +24,16 @@
           "date_added": "2026-09-18",
           "due_date": "2026-09-21",
           "description": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted p",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2025-39682",
+          "vendor": "Linux",
+          "product": "Kernel",
+          "name": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
+          "date_added": "2026-09-18",
+          "due_date": "2026-09-21",
+          "description": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causin",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -245,19 +255,9 @@
           "due_date": "2026-09-05",
           "description": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-82329",
-          "vendor": "JFrog",
-          "product": "Artifactory",
-          "name": "JFrog Artifactory Improper Authentication Vulnerability",
-          "date_added": "2026-09-02",
-          "due_date": "2026-09-05",
-          "description": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-18T18:35:58.637514+00:00",
+      "last_updated": "2026-09-18T21:13:54.613628+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-18T18:35:59.144005+00:00"
+      "last_updated": "2026-09-18T21:13:55.133675+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-18T18:35:59.640570+00:00"
+      "last_updated": "2026-09-18T21:13:55.583874+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-18T18:35:59.872641+00:00"
+      "last_updated": "2026-09-18T21:13:55.836043+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-18T18:36:00.298287+00:00"
+      "last_updated": "2026-09-18T21:13:56.081541+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 395311,
+      "total": 395420,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-18T18:36:00.646057+00:00",
+      "last_updated": "2026-09-18T21:13:56.311526+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-18T18:36:00.646144+00:00"
+      "last_updated": "2026-09-18T21:13:56.311602+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-18T18:36:00.646151+00:00"
+      "last_updated": "2026-09-18T21:13:56.311606+00:00"
     }
   }
 }
