@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-09-21T16:40:14.584508+00:00",
+  "generated_at": "2026-09-21T20:33:46.041008+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1716,
+      "count": 1717,
       "items": [
+        {
+          "id": "CVE-2026-7273",
+          "vendor": "Zyxel",
+          "product": "GS1900 Series Switches",
+          "name": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+          "date_added": "2026-09-21",
+          "due_date": "2026-09-24",
+          "description": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2025-39964",
           "vendor": "Linux",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-16",
           "description": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-49869",
-          "vendor": "Kestra",
-          "product": "Kestra OSS",
-          "name": "Kestra OSS OS Command Injection Vulnerability",
-          "date_added": "2026-09-02",
-          "due_date": "2026-09-05",
-          "description": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-21T16:40:14.702901+00:00",
+      "last_updated": "2026-09-21T20:33:46.189309+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-21T16:40:15.272843+00:00"
+      "last_updated": "2026-09-21T20:33:46.757836+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-21T16:40:15.841773+00:00"
+      "last_updated": "2026-09-21T20:33:47.450923+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-21T16:40:16.096025+00:00"
+      "last_updated": "2026-09-21T20:33:47.739663+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-21T16:40:16.347937+00:00"
+      "last_updated": "2026-09-21T20:33:47.972216+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 395780,
+      "total": 395866,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-21T16:40:16.667960+00:00",
+      "last_updated": "2026-09-21T20:33:48.290900+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-21T16:40:16.668047+00:00"
+      "last_updated": "2026-09-21T20:33:48.290971+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-21T16:40:16.668052+00:00"
+      "last_updated": "2026-09-21T20:33:48.290975+00:00"
     }
   }
 }
