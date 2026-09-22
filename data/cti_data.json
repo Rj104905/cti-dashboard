@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-09-22T16:57:22.177074+00:00",
+  "generated_at": "2026-09-22T19:58:52.166045+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1717,
+      "count": 1721,
       "items": [
+        {
+          "id": "CVE-2026-93952",
+          "vendor": "Arista",
+          "product": "VeloCloud Orchestrator",
+          "name": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+          "date_added": "2026-09-22",
+          "due_date": "2026-09-25",
+          "description": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confident",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-94127",
+          "vendor": "F5",
+          "product": "BIG-IP APM",
+          "name": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+          "date_added": "2026-09-22",
+          "due_date": "2026-09-25",
+          "description": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-93616",
+          "vendor": "Check Point",
+          "product": "Multiple Products",
+          "name": "Check Point Multiple Products Path Traversal Vulnerability",
+          "date_added": "2026-09-22",
+          "due_date": "2026-09-25",
+          "description": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary script",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-85102",
+          "vendor": "Check Point",
+          "product": "Multiple Products",
+          "name": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
+          "date_added": "2026-09-22",
+          "due_date": "2026-09-25",
+          "description": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gat",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-7273",
           "vendor": "Zyxel",
@@ -215,49 +255,9 @@
           "due_date": "2026-09-11",
           "description": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-85880",
-          "vendor": "Microsoft",
-          "product": "Windows",
-          "name": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
-          "date_added": "2026-09-08",
-          "due_date": "2026-09-22",
-          "description": "Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-85046",
-          "vendor": "Google",
-          "product": "Chromium V8",
-          "name": "Google Chromium V8 Type Confusion Vulnerability",
-          "date_added": "2026-09-04",
-          "due_date": "2026-09-18",
-          "description": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-59822",
-          "vendor": "BerriAI",
-          "product": "LiteLLM",
-          "name": "BerriAI LiteLLM Improper Authentication Vulnerability",
-          "date_added": "2026-09-02",
-          "due_date": "2026-09-16",
-          "description": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48710",
-          "vendor": "Kludex",
-          "product": "Starlette",
-          "name": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
-          "date_added": "2026-09-02",
-          "due_date": "2026-09-16",
-          "description": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-22T16:57:22.274569+00:00",
+      "last_updated": "2026-09-22T19:58:52.270835+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-22T16:57:22.739714+00:00"
+      "last_updated": "2026-09-22T19:58:52.685047+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-22T16:57:23.122119+00:00"
+      "last_updated": "2026-09-22T19:58:53.067125+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-22T16:57:23.676665+00:00"
+      "last_updated": "2026-09-22T19:58:53.287860+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-22T16:57:24.110051+00:00"
+      "last_updated": "2026-09-22T19:58:53.529818+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 396138,
+      "total": 396289,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-22T16:57:24.208275+00:00",
+      "last_updated": "2026-09-22T19:58:53.699935+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-22T16:57:24.208356+00:00"
+      "last_updated": "2026-09-22T19:58:53.700024+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-22T16:57:24.208362+00:00"
+      "last_updated": "2026-09-22T19:58:53.700030+00:00"
     }
   }
 }
