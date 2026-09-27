@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-09-27T19:08:49.263954+00:00",
+  "generated_at": "2026-09-27T22:05:07.824473+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1726,
+      "count": 1728,
       "items": [
+        {
+          "id": "CVE-2026-88772",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+          "date_added": "2026-09-27",
+          "due_date": "2026-09-30",
+          "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-88771",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "name": "Citrix NetScaler Improper Input Validation Vulnerability",
+          "date_added": "2026-09-27",
+          "due_date": "2026-09-30",
+          "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-67279",
           "vendor": "MikroTik",
@@ -235,29 +255,9 @@
           "due_date": "2026-09-13",
           "description": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-19490",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "name": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-          "date_added": "2026-09-09",
-          "due_date": "2026-09-12",
-          "description": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Pr",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2025-25249",
-          "vendor": "Fortinet",
-          "product": "Multiple Products",
-          "name": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
-          "date_added": "2026-09-09",
-          "due_date": "2026-09-12",
-          "description": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-27T19:08:49.389977+00:00",
+      "last_updated": "2026-09-27T22:05:07.964815+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-27T19:08:49.788229+00:00"
+      "last_updated": "2026-09-27T22:05:08.401068+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-27T19:08:50.244757+00:00"
+      "last_updated": "2026-09-27T22:05:08.828063+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-27T19:08:50.442735+00:00"
+      "last_updated": "2026-09-27T22:05:09.059408+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-27T19:08:50.600810+00:00"
+      "last_updated": "2026-09-27T22:05:09.273600+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 398517,
+      "total": 398539,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-27T19:08:50.742822+00:00",
+      "last_updated": "2026-09-27T22:05:09.452696+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-27T19:08:50.742906+00:00"
+      "last_updated": "2026-09-27T22:05:09.452758+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-27T19:08:50.742913+00:00"
+      "last_updated": "2026-09-27T22:05:09.452762+00:00"
     }
   }
 }
