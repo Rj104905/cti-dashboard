@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-09-29T09:27:53.264994+00:00",
+  "generated_at": "2026-09-29T16:02:09.825836+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1728,
+      "count": 1729,
       "items": [
+        {
+          "id": "CVE-2026-86950",
+          "vendor": "Apple",
+          "product": "Multiple Products",
+          "name": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
+          "date_added": "2026-09-29",
+          "due_date": "2026-10-02",
+          "description": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-88772",
           "vendor": "Citrix",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-13",
           "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-67277",
-          "vendor": "MikroTik",
-          "product": "RouterOS",
-          "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
-          "date_added": "2026-09-10",
-          "due_date": "2026-09-13",
-          "description": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-29T09:27:53.419870+00:00",
+      "last_updated": "2026-09-29T16:02:09.936764+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-29T09:27:53.828316+00:00"
+      "last_updated": "2026-09-29T16:02:10.484765+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-29T09:27:54.286291+00:00"
+      "last_updated": "2026-09-29T16:02:10.714814+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-29T09:27:54.679341+00:00"
+      "last_updated": "2026-09-29T16:02:10.988194+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-29T09:27:54.890617+00:00"
+      "last_updated": "2026-09-29T16:02:11.213571+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 398912,
+      "total": 399085,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-29T09:27:55.166840+00:00",
+      "last_updated": "2026-09-29T16:02:11.519397+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-29T09:27:55.166904+00:00"
+      "last_updated": "2026-09-29T16:02:11.519471+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-29T09:27:55.166908+00:00"
+      "last_updated": "2026-09-29T16:02:11.519477+00:00"
     }
   }
 }
