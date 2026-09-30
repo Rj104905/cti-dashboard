@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-09-30T16:07:49.756548+00:00",
+  "generated_at": "2026-09-30T20:46:56.236638+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1729,
+      "count": 1730,
       "items": [
+        {
+          "id": "CVE-2026-76504",
+          "vendor": "Cisco",
+          "product": "Catalyst SD-WAN Manager",
+          "name": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+          "date_added": "2026-09-30",
+          "due_date": "2026-10-03",
+          "description": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-86950",
           "vendor": "Apple",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-14",
           "description": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits A",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-86060",
-          "vendor": "MikroTik",
-          "product": "RouterOS",
-          "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
-          "date_added": "2026-09-10",
-          "due_date": "2026-09-13",
-          "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-09-30T16:07:49.968604+00:00",
+      "last_updated": "2026-09-30T20:46:56.339151+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-09-30T16:07:50.362628+00:00"
+      "last_updated": "2026-09-30T20:46:56.964866+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-30T16:07:50.867622+00:00"
+      "last_updated": "2026-09-30T20:46:57.666130+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-09-30T16:07:51.045561+00:00"
+      "last_updated": "2026-09-30T20:46:57.958357+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-09-30T16:07:51.195519+00:00"
+      "last_updated": "2026-09-30T20:46:58.243124+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 399797,
+      "total": 400013,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-09-30T16:07:56.051421+00:00",
+      "last_updated": "2026-09-30T20:46:58.539305+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-30T16:07:56.051518+00:00"
+      "last_updated": "2026-09-30T20:46:58.539410+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-09-30T16:07:56.051525+00:00"
+      "last_updated": "2026-09-30T20:46:58.539417+00:00"
     }
   }
 }
