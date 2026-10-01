@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-10-01T17:42:39.998722+00:00",
+  "generated_at": "2026-10-01T21:59:45.419945+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1730,
+      "count": 1731,
       "items": [
+        {
+          "id": "CVE-2026-104286",
+          "vendor": "Fortinet",
+          "product": "FortiMail",
+          "name": "Fortinet FortiMail Path Traversal Vulnerability",
+          "date_added": "2026-10-01",
+          "due_date": "2026-10-04",
+          "description": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-76504",
           "vendor": "Cisco",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-25",
           "description": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-85706",
-          "vendor": "GitLab",
-          "product": "Community Edition and Enterprise Edition",
-          "name": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
-          "date_added": "2026-09-11",
-          "due_date": "2026-09-14",
-          "description": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits A",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-01T17:42:40.085818+00:00",
+      "last_updated": "2026-10-01T21:59:45.573391+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-01T17:42:40.604507+00:00"
+      "last_updated": "2026-10-01T21:59:46.080232+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-01T17:42:41.117232+00:00"
+      "last_updated": "2026-10-01T21:59:46.603927+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-01T17:42:41.634393+00:00"
+      "last_updated": "2026-10-01T21:59:46.808754+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-01T17:42:41.898832+00:00"
+      "last_updated": "2026-10-01T21:59:47.083507+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 400404,
+      "total": 400475,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-01T17:42:42.354435+00:00",
+      "last_updated": "2026-10-01T21:59:47.659871+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-01T17:42:42.354546+00:00"
+      "last_updated": "2026-10-01T21:59:47.659961+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-01T17:42:42.354552+00:00"
+      "last_updated": "2026-10-01T21:59:47.659966+00:00"
     }
   }
 }
