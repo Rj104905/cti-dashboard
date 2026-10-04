@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-10-04T18:51:35.384254+00:00",
+  "generated_at": "2026-10-04T22:02:46.113121+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1733,
+      "count": 1734,
       "items": [
+        {
+          "id": "CVE-2026-88779",
+          "vendor": "Citrix",
+          "product": "NetScaler",
+          "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+          "date_added": "2026-10-04",
+          "due_date": "2026-10-07",
+          "description": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-102490",
           "vendor": "Zammad GmbH",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-17",
           "description": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-84869",
-          "vendor": "ConnectWise",
-          "product": "ScreenConnect",
-          "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
-          "date_added": "2026-09-11",
-          "due_date": "2026-09-14",
-          "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-04T18:51:35.570502+00:00",
+      "last_updated": "2026-10-04T22:02:46.197885+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,28 +265,28 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-04T18:51:36.185741+00:00"
+      "last_updated": "2026-10-04T22:02:46.515897+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-04T18:51:36.424075+00:00"
+      "last_updated": "2026-10-04T22:02:46.865325+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-04T18:51:36.854536+00:00"
+      "last_updated": "2026-10-04T22:02:46.988401+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-04T18:51:37.075370+00:00"
+      "last_updated": "2026-10-04T22:02:47.113081+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-04T18:51:37.258422+00:00",
+      "last_updated": "2026-10-04T22:02:47.169558+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-04T18:51:37.258487+00:00"
+      "last_updated": "2026-10-04T22:02:47.169625+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-04T18:51:37.258491+00:00"
+      "last_updated": "2026-10-04T22:02:47.169630+00:00"
     }
   }
 }
