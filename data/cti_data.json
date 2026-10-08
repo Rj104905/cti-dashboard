@@ -1,11 +1,61 @@
 {
-  "generated_at": "2026-10-08T16:55:09.128338+00:00",
+  "generated_at": "2026-10-08T21:35:58.356870+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1734,
+      "count": 1739,
       "items": [
+        {
+          "id": "CVE-2015-5477",
+          "vendor": "ISC",
+          "product": "BIND",
+          "name": " ISC BIND Data Processing Errors Vulnerability",
+          "date_added": "2026-10-08",
+          "due_date": "2026-10-11",
+          "description": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2016-3081",
+          "vendor": "Apache",
+          "product": "Struts",
+          "name": "Apache Struts Command Injection Vulnerability",
+          "date_added": "2026-10-08",
+          "due_date": "2026-10-11",
+          "description": "Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2023-22894",
+          "vendor": "Strapi",
+          "product": "Strapi",
+          "name": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
+          "date_added": "2026-10-08",
+          "due_date": "2026-10-11",
+          "description": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or en",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2021-3199",
+          "vendor": "ONLYOFFICE",
+          "product": "Docs",
+          "name": "ONLYOFFICE Docs Server Path Traversal Vulnerability",
+          "date_added": "2026-10-08",
+          "due_date": "2026-10-11",
+          "description": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2015-3306",
+          "vendor": "ProFTPD",
+          "product": "ProFTPD",
+          "name": "ProFTPD Improper Access Control Vulnerability",
+          "date_added": "2026-10-08",
+          "due_date": "2026-10-11",
+          "description": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-88779",
           "vendor": "Citrix",
@@ -62,7 +112,7 @@
           "product": "Multiple Products",
           "name": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
           "date_added": "2026-09-29",
-          "due_date": "2026-10-02",
+          "due_date": "2026-10-13",
           "description": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
@@ -205,59 +255,9 @@
           "due_date": "2026-09-21",
           "description": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted p",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2025-39682",
-          "vendor": "Linux",
-          "product": "Kernel",
-          "name": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-          "date_added": "2026-09-18",
-          "due_date": "2026-09-21",
-          "description": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causin",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-58704",
-          "vendor": "Google",
-          "product": "Pixel",
-          "name": "Google Pixel Improper Authorization Vulnerability",
-          "date_added": "2026-09-16",
-          "due_date": "2026-09-19",
-          "description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-76460",
-          "vendor": "Cisco",
-          "product": "Identity Services Engine",
-          "name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
-          "date_added": "2026-09-16",
-          "due_date": "2026-09-19",
-          "description": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-87886",
-          "vendor": "Acronis",
-          "product": "Backup",
-          "name": "Acronis Backup Incorrect Default Permissions Vulnerability",
-          "date_added": "2026-09-16",
-          "due_date": "2026-09-19",
-          "description": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-76461",
-          "vendor": "Cisco",
-          "product": "Secure Email Gateway",
-          "name": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-          "date_added": "2026-09-14",
-          "due_date": "2026-09-17",
-          "description": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-08T16:55:09.259386+00:00",
+      "last_updated": "2026-10-08T21:35:58.536399+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-08T16:55:09.798684+00:00"
+      "last_updated": "2026-10-08T21:35:58.981791+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-08T16:55:10.293915+00:00"
+      "last_updated": "2026-10-08T21:35:59.445146+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-08T16:55:10.811979+00:00"
+      "last_updated": "2026-10-08T21:35:59.717755+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-08T16:55:11.085773+00:00"
+      "last_updated": "2026-10-08T21:35:59.924849+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 403135,
+      "total": 403285,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-08T16:55:11.523976+00:00",
+      "last_updated": "2026-10-08T21:36:00.136006+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-08T16:55:11.524057+00:00"
+      "last_updated": "2026-10-08T21:36:00.136072+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-08T16:55:11.524063+00:00"
+      "last_updated": "2026-10-08T21:36:00.136076+00:00"
     }
   }
 }
