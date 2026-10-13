@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-10-13T11:13:49.755982+00:00",
+  "generated_at": "2026-10-13T18:17:20.947658+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1739,
+      "count": 1740,
       "items": [
+        {
+          "id": "CVE-2026-104935",
+          "vendor": "Ivanti",
+          "product": "Connect Secure",
+          "name": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+          "date_added": "2026-10-13",
+          "due_date": "2026-10-16",
+          "description": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2015-5477",
           "vendor": "ISC",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-21",
           "description": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-53266",
-          "vendor": "Linux",
-          "product": "Kernel",
-          "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
-          "date_added": "2026-09-18",
-          "due_date": "2026-09-21",
-          "description": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted p",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-13T11:13:49.861193+00:00",
+      "last_updated": "2026-10-13T18:17:21.179904+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-13T11:13:50.398779+00:00"
+      "last_updated": "2026-10-13T18:17:21.616510+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-13T11:13:50.882522+00:00"
+      "last_updated": "2026-10-13T18:17:22.131797+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-13T11:13:51.404301+00:00"
+      "last_updated": "2026-10-13T18:17:22.345129+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-13T11:13:51.660969+00:00"
+      "last_updated": "2026-10-13T18:17:22.519833+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 405194,
+      "total": 405540,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-13T11:13:52.013587+00:00",
+      "last_updated": "2026-10-13T18:17:22.668601+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-13T11:13:52.013690+00:00"
+      "last_updated": "2026-10-13T18:17:22.668690+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-13T11:13:52.013696+00:00"
+      "last_updated": "2026-10-13T18:17:22.668697+00:00"
     }
   }
 }
