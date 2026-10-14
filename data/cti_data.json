@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-10-14T17:22:42.185178+00:00",
+  "generated_at": "2026-10-14T20:48:01.230148+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1741,
+      "count": 1745,
       "items": [
+        {
+          "id": "CVE-2026-105134",
+          "vendor": "Ahsay",
+          "product": "AhsayCBS",
+          "name": "Ahsay AhsayCBS Command Injection Vulnerability",
+          "date_added": "2026-10-14",
+          "due_date": "2026-10-17",
+          "description": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component\u2019s /rps/api/json/UpdateReceivers.do endpoi",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-76519",
+          "vendor": "Cisco",
+          "product": "Secure Email Gateway",
+          "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+          "date_added": "2026-10-14",
+          "due_date": "2026-10-17",
+          "description": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-105133",
+          "vendor": "Ahsay",
+          "product": "AhsayCBS",
+          "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
+          "date_added": "2026-10-14",
+          "due_date": "2026-10-17",
+          "description": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component\u2019s checkSysPwd function. This vulnerability can be chained with ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-0322",
+          "vendor": "Palo Alto Networks",
+          "product": "PAN-OS",
+          "name": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
+          "date_added": "2026-10-14",
+          "due_date": "2026-10-17",
+          "description": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-104935",
           "vendor": "Ivanti",
@@ -215,49 +255,9 @@
           "due_date": "2026-09-25",
           "description": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confident",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-94127",
-          "vendor": "F5",
-          "product": "BIG-IP APM",
-          "name": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-          "date_added": "2026-09-22",
-          "due_date": "2026-09-25",
-          "description": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-93616",
-          "vendor": "Check Point",
-          "product": "Multiple Products",
-          "name": "Check Point Multiple Products Path Traversal Vulnerability",
-          "date_added": "2026-09-22",
-          "due_date": "2026-09-25",
-          "description": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary script",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-85102",
-          "vendor": "Check Point",
-          "product": "Multiple Products",
-          "name": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
-          "date_added": "2026-09-22",
-          "due_date": "2026-09-25",
-          "description": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gat",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-7273",
-          "vendor": "Zyxel",
-          "product": "GS1900 Series Switches",
-          "name": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-          "date_added": "2026-09-21",
-          "due_date": "2026-09-24",
-          "description": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-14T17:22:42.291316+00:00",
+      "last_updated": "2026-10-14T20:48:01.351454+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-14T17:22:42.705349+00:00"
+      "last_updated": "2026-10-14T20:48:01.877781+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-14T17:22:43.089755+00:00"
+      "last_updated": "2026-10-14T20:48:02.257284+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-14T17:22:43.314958+00:00"
+      "last_updated": "2026-10-14T20:48:02.474494+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-14T17:22:43.475826+00:00"
+      "last_updated": "2026-10-14T20:48:02.624289+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 407922,
+      "total": 408059,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-14T17:22:43.671959+00:00",
+      "last_updated": "2026-10-14T20:48:02.757151+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-14T17:22:43.672048+00:00"
+      "last_updated": "2026-10-14T20:48:02.757236+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-14T17:22:43.672054+00:00"
+      "last_updated": "2026-10-14T20:48:02.757242+00:00"
     }
   }
 }
