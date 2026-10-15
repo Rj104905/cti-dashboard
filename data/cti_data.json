@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-10-15T16:53:55.256222+00:00",
+  "generated_at": "2026-10-15T20:05:30.654741+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1745,
+      "count": 1746,
       "items": [
+        {
+          "id": "CVE-2026-21589",
+          "vendor": "Atlassian",
+          "product": "Multiple Products",
+          "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+          "date_added": "2026-10-15",
+          "due_date": "2026-10-18",
+          "description": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to exte",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-105134",
           "vendor": "Ahsay",
@@ -245,19 +255,9 @@
           "due_date": "2026-09-27",
           "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-93952",
-          "vendor": "Arista",
-          "product": "VeloCloud Orchestrator",
-          "name": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-          "date_added": "2026-09-22",
-          "due_date": "2026-09-25",
-          "description": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confident",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-15T16:53:55.380772+00:00",
+      "last_updated": "2026-10-15T20:05:30.870328+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-15T16:53:55.765182+00:00"
+      "last_updated": "2026-10-15T20:05:31.294287+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
-      "error": "502 Server Error: Bad Gateway for url: https://mb-api.abuse.ch/api/v1/",
+      "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-15T16:53:55.888626+00:00"
+      "last_updated": "2026-10-15T20:05:31.707500+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-15T16:53:56.071151+00:00"
+      "last_updated": "2026-10-15T20:05:31.980112+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-15T16:53:56.205608+00:00"
+      "last_updated": "2026-10-15T20:05:32.206839+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 408427,
+      "total": 408598,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-15T16:53:56.354229+00:00",
+      "last_updated": "2026-10-15T20:05:32.349967+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-15T16:53:56.354350+00:00"
+      "last_updated": "2026-10-15T20:05:32.350061+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-15T16:53:56.354360+00:00"
+      "last_updated": "2026-10-15T20:05:32.350067+00:00"
     }
   }
 }
