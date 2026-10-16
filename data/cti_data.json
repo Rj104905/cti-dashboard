@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-10-16T14:59:19.299282+00:00",
+  "generated_at": "2026-10-16T18:37:17.024151+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1746,
+      "count": 1748,
       "items": [
+        {
+          "id": "CVE-2026-102764",
+          "vendor": "BeyondTrust",
+          "product": "Remote Support",
+          "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+          "date_added": "2026-10-16",
+          "due_date": "2026-10-19",
+          "description": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2025-61624",
+          "vendor": "Fortinet",
+          "product": "Multiple Products",
+          "name": "Fortinet Multiple Products Path Traversal Vulnerability",
+          "date_added": "2026-10-16",
+          "due_date": "2026-10-19",
+          "description": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-21589",
           "vendor": "Atlassian",
@@ -235,29 +255,9 @@
           "due_date": "2026-09-28",
           "description": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code exec",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-5430",
-          "vendor": "WSO2",
-          "product": "Multiple Products",
-          "name": "WSO2 Multiple Products Path Traversal Vulnerability ",
-          "date_added": "2026-09-24",
-          "due_date": "2026-09-27",
-          "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-71362",
-          "vendor": "Adobe",
-          "product": "Commerce and Magento ",
-          "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
-          "date_added": "2026-09-24",
-          "due_date": "2026-09-27",
-          "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-16T14:59:19.380909+00:00",
+      "last_updated": "2026-10-16T18:37:17.294487+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-16T14:59:19.899770+00:00"
+      "last_updated": "2026-10-16T18:37:17.764156+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-16T14:59:20.463161+00:00"
+      "last_updated": "2026-10-16T18:37:18.379940+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-16T14:59:21.084409+00:00"
+      "last_updated": "2026-10-16T18:37:18.723815+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-16T14:59:21.407259+00:00"
+      "last_updated": "2026-10-16T18:37:18.974176+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 408933,
+      "total": 409124,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-16T14:59:22.551154+00:00",
+      "last_updated": "2026-10-16T18:37:19.209436+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-16T14:59:22.551217+00:00"
+      "last_updated": "2026-10-16T18:37:19.209521+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-16T14:59:22.551221+00:00"
+      "last_updated": "2026-10-16T18:37:19.209526+00:00"
     }
   }
 }
