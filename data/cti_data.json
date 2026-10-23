@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:23:57.423381+00:00",
+  "generated_at": "2026-10-23T23:15:03.326496+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
@@ -257,7 +257,7 @@
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-23T20:23:57.560117+00:00",
+      "last_updated": "2026-10-23T23:15:03.422779+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-23T20:23:58.447164+00:00"
+      "last_updated": "2026-10-23T23:15:03.814524+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-23T20:23:58.958542+00:00"
+      "last_updated": "2026-10-23T23:15:04.138627+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-23T20:23:59.481123+00:00"
+      "last_updated": "2026-10-23T23:15:04.306633+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-23T20:23:59.747370+00:00"
+      "last_updated": "2026-10-23T23:15:04.467526+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 413810,
+      "total": 413838,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-23T20:24:00.111956+00:00",
+      "last_updated": "2026-10-23T23:15:04.545701+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-23T20:24:00.112039+00:00"
+      "last_updated": "2026-10-23T23:15:04.545769+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-23T20:24:00.112045+00:00"
+      "last_updated": "2026-10-23T23:15:04.545773+00:00"
     }
   }
 }
