@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-10-23T17:00:35.403522+00:00",
+  "generated_at": "2026-10-23T20:23:57.423381+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1754,
+      "count": 1756,
       "items": [
+        {
+          "id": "CVE-2026-114625",
+          "vendor": "Arista",
+          "product": "VeloCloud Orchestrator",
+          "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+          "date_added": "2026-10-23",
+          "due_date": "2026-10-26",
+          "description": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-110447",
+          "vendor": "Collabora",
+          "product": "Collabora Online \u2013 Built-in CODE Server",
+          "name": "Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability",
+          "date_added": "2026-10-23",
+          "due_date": "2026-10-26",
+          "description": "Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-106931",
           "vendor": "EG Secure Solutions",
@@ -235,29 +255,9 @@
           "due_date": "2026-10-05",
           "description": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-104286",
-          "vendor": "Fortinet",
-          "product": "FortiMail",
-          "name": "Fortinet FortiMail Path Traversal Vulnerability",
-          "date_added": "2026-10-01",
-          "due_date": "2026-10-04",
-          "description": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-76504",
-          "vendor": "Cisco",
-          "product": "Catalyst SD-WAN Manager",
-          "name": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-          "date_added": "2026-09-30",
-          "due_date": "2026-10-03",
-          "description": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-23T17:00:35.530645+00:00",
+      "last_updated": "2026-10-23T20:23:57.560117+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-23T17:00:36.041241+00:00"
+      "last_updated": "2026-10-23T20:23:58.447164+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-23T17:00:36.548822+00:00"
+      "last_updated": "2026-10-23T20:23:58.958542+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-23T17:00:37.073006+00:00"
+      "last_updated": "2026-10-23T20:23:59.481123+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-23T17:00:37.358667+00:00"
+      "last_updated": "2026-10-23T20:23:59.747370+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 413776,
+      "total": 413810,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-23T17:00:37.933405+00:00",
+      "last_updated": "2026-10-23T20:24:00.111956+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-23T17:00:37.933476+00:00"
+      "last_updated": "2026-10-23T20:24:00.112039+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-23T17:00:37.933480+00:00"
+      "last_updated": "2026-10-23T20:24:00.112045+00:00"
     }
   }
 }
