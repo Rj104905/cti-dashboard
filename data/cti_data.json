@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-10-27T16:32:48.065246+00:00",
+  "generated_at": "2026-10-27T20:57:31.291574+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1758,
+      "count": 1760,
       "items": [
+        {
+          "id": "CVE-2026-48356",
+          "vendor": "Adobe",
+          "product": "Commerce and Magento",
+          "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+          "date_added": "2026-10-27",
+          "due_date": "2026-11-10",
+          "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's acc",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-111497",
+          "vendor": "Google",
+          "product": "Brotli",
+          "name": "Google Brotli Unchecked Return Value Vulnerability",
+          "date_added": "2026-10-27",
+          "due_date": "2026-11-10",
+          "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary cod",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-109618",
           "vendor": "PHP Group",
@@ -235,29 +255,9 @@
           "due_date": "2026-10-11",
           "description": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2015-3306",
-          "vendor": "ProFTPD",
-          "product": "ProFTPD",
-          "name": "ProFTPD Improper Access Control Vulnerability",
-          "date_added": "2026-10-08",
-          "due_date": "2026-10-11",
-          "description": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-88779",
-          "vendor": "Citrix",
-          "product": "NetScaler",
-          "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-          "date_added": "2026-10-04",
-          "due_date": "2026-10-07",
-          "description": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-27T16:32:48.171248+00:00",
+      "last_updated": "2026-10-27T20:57:31.560131+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-27T16:32:48.501414+00:00"
+      "last_updated": "2026-10-27T20:57:31.997920+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-27T16:32:48.815047+00:00"
+      "last_updated": "2026-10-27T20:57:32.420055+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-27T16:32:49.086161+00:00"
+      "last_updated": "2026-10-27T20:57:32.675111+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-27T16:32:49.256592+00:00"
+      "last_updated": "2026-10-27T20:57:32.812745+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 415241,
+      "total": 415377,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-27T16:32:49.418936+00:00",
+      "last_updated": "2026-10-27T20:57:32.995075+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-27T16:32:49.419008+00:00"
+      "last_updated": "2026-10-27T20:57:32.995126+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-27T16:32:49.419013+00:00"
+      "last_updated": "2026-10-27T20:57:32.995130+00:00"
     }
   }
 }
