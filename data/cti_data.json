@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-10-30T16:03:10.461730+00:00",
+  "generated_at": "2026-10-30T20:42:41.549844+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1764,
+      "count": 1766,
       "items": [
+        {
+          "id": "CVE-2026-118527",
+          "vendor": "Ivanti",
+          "product": "Connect Secure",
+          "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+          "date_added": "2026-10-30",
+          "due_date": "2026-11-13",
+          "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chaine",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-111357",
+          "vendor": "Ivanti",
+          "product": "Connect Secure",
+          "name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+          "date_added": "2026-10-30",
+          "due_date": "2026-11-02",
+          "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-97229",
           "vendor": "GitLab",
@@ -235,29 +255,9 @@
           "due_date": "2026-10-17",
           "description": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-104935",
-          "vendor": "Ivanti",
-          "product": "Connect Secure",
-          "name": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
-          "date_added": "2026-10-13",
-          "due_date": "2026-10-16",
-          "description": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-96951",
-          "vendor": "Microsoft",
-          "product": "Windows",
-          "name": "Microsoft Windows Command Injection Vulnerability",
-          "date_added": "2026-10-13",
-          "due_date": "2026-10-16",
-          "description": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-10-30T16:03:10.682409+00:00",
+      "last_updated": "2026-10-30T20:42:41.672677+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-10-30T16:03:11.104237+00:00"
+      "last_updated": "2026-10-30T20:42:42.198369+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-30T16:03:11.556294+00:00"
+      "last_updated": "2026-10-30T20:42:42.706769+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-10-30T16:03:11.806402+00:00"
+      "last_updated": "2026-10-30T20:42:43.262898+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-10-30T16:03:12.071986+00:00"
+      "last_updated": "2026-10-30T20:42:43.486897+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 417185,
+      "total": 417417,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-10-30T16:03:12.305076+00:00",
+      "last_updated": "2026-10-30T20:42:43.725139+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-30T16:03:12.305145+00:00"
+      "last_updated": "2026-10-30T20:42:43.725231+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-10-30T16:03:12.305148+00:00"
+      "last_updated": "2026-10-30T20:42:43.725237+00:00"
     }
   }
 }
