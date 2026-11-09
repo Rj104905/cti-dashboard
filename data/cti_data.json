@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-11-09T09:41:32.093856+00:00",
+  "generated_at": "2026-11-09T20:03:58.242529+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1769,
+      "count": 1772,
       "items": [
+        {
+          "id": "CVE-2026-102895",
+          "vendor": "GPUStack",
+          "product": "GPUStack",
+          "name": "GPUStack Improper Authentication Vulnerability",
+          "date_added": "2026-11-09",
+          "due_date": "2026-11-12",
+          "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-123158",
+          "vendor": "OpenBSD",
+          "product": "OpenSSH",
+          "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+          "date_added": "2026-11-09",
+          "due_date": "2026-11-12",
+          "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-116779",
+          "vendor": "SignalWire",
+          "product": "FreeSwitch",
+          "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+          "date_added": "2026-11-09",
+          "due_date": "2026-11-12",
+          "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-19868",
           "vendor": "SonicWall",
@@ -225,39 +255,9 @@
           "due_date": "2026-10-19",
           "description": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2025-61624",
-          "vendor": "Fortinet",
-          "product": "Multiple Products",
-          "name": "Fortinet Multiple Products Path Traversal Vulnerability",
-          "date_added": "2026-10-16",
-          "due_date": "2026-10-19",
-          "description": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-21589",
-          "vendor": "Atlassian",
-          "product": "Multiple Products",
-          "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-          "date_added": "2026-10-15",
-          "due_date": "2026-10-18",
-          "description": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to exte",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-105134",
-          "vendor": "Ahsay",
-          "product": "AhsayCBS",
-          "name": "Ahsay AhsayCBS Command Injection Vulnerability",
-          "date_added": "2026-10-14",
-          "due_date": "2026-10-17",
-          "description": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component\u2019s /rps/api/json/UpdateReceivers.do endpoi",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-09T09:41:32.347682+00:00",
+      "last_updated": "2026-11-09T20:03:58.393791+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-09T09:41:32.910541+00:00"
+      "last_updated": "2026-11-09T20:03:58.855645+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-09T09:41:33.422256+00:00"
+      "last_updated": "2026-11-09T20:03:59.214841+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-09T09:41:33.952554+00:00"
+      "last_updated": "2026-11-09T20:03:59.393203+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-09T09:41:34.248449+00:00"
+      "last_updated": "2026-11-09T20:03:59.494137+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 421341,
+      "total": 421639,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-09T09:41:34.609698+00:00",
+      "last_updated": "2026-11-09T20:03:59.622042+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-09T09:41:34.609788+00:00"
+      "last_updated": "2026-11-09T20:03:59.622118+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-09T09:41:34.609794+00:00"
+      "last_updated": "2026-11-09T20:03:59.622124+00:00"
     }
   }
 }
