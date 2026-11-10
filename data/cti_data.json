@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T20:03:58.242529+00:00",
+  "generated_at": "2026-11-10T02:41:34.965027+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1772,
+      "count": 1773,
       "items": [
         {
           "id": "CVE-2026-102895",
@@ -34,6 +34,16 @@
           "date_added": "2026-11-09",
           "due_date": "2026-11-12",
           "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-123218",
+          "vendor": "IBM",
+          "product": "Aspera Faspex",
+          "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+          "date_added": "2026-11-09",
+          "due_date": "2026-11-12",
+          "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -245,19 +255,9 @@
           "due_date": "2026-11-03",
           "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution wit",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-102764",
-          "vendor": "BeyondTrust",
-          "product": "Remote Support",
-          "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-          "date_added": "2026-10-16",
-          "due_date": "2026-10-19",
-          "description": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-09T20:03:58.393791+00:00",
+      "last_updated": "2026-11-10T02:41:35.169226+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-09T20:03:58.855645+00:00"
+      "last_updated": "2026-11-10T02:41:35.591186+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-09T20:03:59.214841+00:00"
+      "last_updated": "2026-11-10T02:41:36.042739+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-09T20:03:59.393203+00:00"
+      "last_updated": "2026-11-10T02:41:36.260323+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-09T20:03:59.494137+00:00"
+      "last_updated": "2026-11-10T02:41:36.526257+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 421639,
+      "total": 421867,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-09T20:03:59.622042+00:00",
+      "last_updated": "2026-11-10T02:41:36.645366+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-09T20:03:59.622118+00:00"
+      "last_updated": "2026-11-10T02:41:36.645409+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-09T20:03:59.622124+00:00"
+      "last_updated": "2026-11-10T02:41:36.645413+00:00"
     }
   }
 }
