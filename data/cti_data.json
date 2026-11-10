@@ -1,11 +1,71 @@
 {
-  "generated_at": "2026-11-10T17:59:35.704865+00:00",
+  "generated_at": "2026-11-10T22:53:27.370357+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1773,
+      "count": 1779,
       "items": [
+        {
+          "id": "CVE-2026-124194",
+          "vendor": "Microsoft",
+          "product": "Office",
+          "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+          "date_added": "2026-11-10",
+          "due_date": "2026-11-24",
+          "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-111793",
+          "vendor": "Openwave Messaging Limited",
+          "product": "Webtop Media Transcoder",
+          "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+          "date_added": "2026-11-10",
+          "due_date": "2026-11-24",
+          "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-20320",
+          "vendor": "Cisco",
+          "product": "BroadWorks",
+          "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+          "date_added": "2026-11-10",
+          "due_date": "2026-11-24",
+          "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-111560",
+          "vendor": "Barracuda Networks",
+          "product": "Multiple Products",
+          "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+          "date_added": "2026-11-10",
+          "due_date": "2026-11-13",
+          "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vu",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-116606",
+          "vendor": "Barracuda Networks",
+          "product": "Barracuda Email Security Gateway (ESG)",
+          "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+          "date_added": "2026-11-10",
+          "due_date": "2026-11-13",
+          "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backu",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-125350",
+          "vendor": "Google",
+          "product": "Chromium",
+          "name": "Google Chromium Use-After-Free Vulnerability",
+          "date_added": "2026-11-10",
+          "due_date": "2026-11-24",
+          "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that u",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-102895",
           "vendor": "GPUStack",
@@ -195,69 +255,9 @@
           "due_date": "2026-10-26",
           "description": "Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-106931",
-          "vendor": "EG Secure Solutions",
-          "product": "SiteGuard Server Edition",
-          "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-          "date_added": "2026-10-20",
-          "due_date": "2026-10-23",
-          "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-96656",
-          "vendor": "Plex",
-          "product": "Media Server",
-          "name": "Plex Media Server External Control of File Name or Path Vulnerability",
-          "date_added": "2026-10-20",
-          "due_date": "2026-10-23",
-          "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-96655",
-          "vendor": "Plex",
-          "product": "Media Server",
-          "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-          "date_added": "2026-10-20",
-          "due_date": "2026-11-03",
-          "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-96654",
-          "vendor": "Plex",
-          "product": "Media Server",
-          "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-          "date_added": "2026-10-20",
-          "due_date": "2026-10-23",
-          "description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-96652",
-          "vendor": "Plex",
-          "product": "Media Server",
-          "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-          "date_added": "2026-10-20",
-          "due_date": "2026-11-03",
-          "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen dest",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-110936",
-          "vendor": "Siemens",
-          "product": "Software Center",
-          "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-          "date_added": "2026-10-20",
-          "due_date": "2026-11-03",
-          "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution wit",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-10T17:59:35.938771+00:00",
+      "last_updated": "2026-11-10T22:53:27.482805+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-10T17:59:36.393471+00:00"
+      "last_updated": "2026-11-10T22:53:28.034915+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-10T17:59:36.821078+00:00"
+      "last_updated": "2026-11-10T22:53:28.585232+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-10T17:59:37.044303+00:00"
+      "last_updated": "2026-11-10T22:53:28.859874+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-10T17:59:37.287646+00:00"
+      "last_updated": "2026-11-10T22:53:29.131213+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 422219,
+      "total": 423856,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-10T17:59:37.400856+00:00",
+      "last_updated": "2026-11-10T22:53:29.395162+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-10T17:59:37.400944+00:00"
+      "last_updated": "2026-11-10T22:53:29.395233+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-10T17:59:37.400950+00:00"
+      "last_updated": "2026-11-10T22:53:29.395237+00:00"
     }
   }
 }
