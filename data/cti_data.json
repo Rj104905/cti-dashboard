@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-11-17T09:49:44.469410+00:00",
+  "generated_at": "2026-11-17T18:49:35.319121+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1781,
+      "count": 1782,
       "items": [
+        {
+          "id": "CVE-2026-115731",
+          "vendor": "Perforce",
+          "product": "Puppet Enterprise",
+          "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+          "date_added": "2026-11-17",
+          "due_date": "2026-12-01",
+          "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet\u2019s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by s",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-114713",
           "vendor": "UnrealIRCd",
@@ -245,19 +255,9 @@
           "due_date": "2026-10-29",
           "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-109619",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "name": "PHP Stale Internal Request-State Vulnerability",
-          "date_added": "2026-10-26",
-          "due_date": "2026-10-29",
-          "description": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-17T09:49:44.644662+00:00",
+      "last_updated": "2026-11-17T18:49:35.569490+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-17T09:49:45.216064+00:00"
+      "last_updated": "2026-11-17T18:49:36.159123+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-17T09:49:45.727683+00:00"
+      "last_updated": "2026-11-17T18:49:36.653639+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-17T09:49:45.957944+00:00"
+      "last_updated": "2026-11-17T18:49:37.107079+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-17T09:49:46.182951+00:00"
+      "last_updated": "2026-11-17T18:49:37.391099+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 426335,
+      "total": 426489,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-17T09:49:46.456528+00:00",
+      "last_updated": "2026-11-17T18:49:37.736373+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-17T09:49:46.456595+00:00"
+      "last_updated": "2026-11-17T18:49:37.736445+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-17T09:49:46.456599+00:00"
+      "last_updated": "2026-11-17T18:49:37.736449+00:00"
     }
   }
 }
