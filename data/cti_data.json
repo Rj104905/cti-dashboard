@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-18T17:31:17.581335+00:00",
+  "generated_at": "2026-11-18T23:33:48.604273+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1782,
+      "count": 1786,
       "items": [
+        {
+          "id": "CVE-2024-10441",
+          "vendor": "Synology",
+          "product": "DiskStation Manager (DSM)",
+          "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+          "date_added": "2026-11-18",
+          "due_date": "2026-11-21",
+          "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-40217",
+          "vendor": "BerriAI",
+          "product": "LiteLLM",
+          "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+          "date_added": "2026-11-18",
+          "due_date": "2026-12-02",
+          "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-90817",
+          "vendor": "Vanderbilt University",
+          "product": "Research Electronic Data Capture (REDCap)",
+          "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+          "date_added": "2026-11-18",
+          "due_date": "2026-11-21",
+          "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests th",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-90436",
+          "vendor": "Apache",
+          "product": "Axis",
+          "name": "Apache Axis Unsafe Reflection Vulnerability",
+          "date_added": "2026-11-18",
+          "due_date": "2026-11-21",
+          "description": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitabl",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-115731",
           "vendor": "Perforce",
@@ -215,49 +255,9 @@
           "due_date": "2026-11-11",
           "description": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-46300",
-          "vendor": "Linux",
-          "product": "Kernel",
-          "name": "Linux Kernel Missing Initialization of a Variable Vulnerability",
-          "date_added": "2026-10-28",
-          "due_date": "2026-10-31",
-          "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input pr",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-48356",
-          "vendor": "Adobe",
-          "product": "Commerce and Magento",
-          "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-          "date_added": "2026-10-27",
-          "due_date": "2026-11-10",
-          "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's acc",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-111497",
-          "vendor": "Google",
-          "product": "Brotli",
-          "name": "Google Brotli Unchecked Return Value Vulnerability",
-          "date_added": "2026-10-27",
-          "due_date": "2026-11-10",
-          "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary cod",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-109618",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "name": "PHP Memory Corruption Vulnerability",
-          "date_added": "2026-10-26",
-          "due_date": "2026-10-29",
-          "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-18T17:31:17.915046+00:00",
+      "last_updated": "2026-11-18T23:33:48.750420+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-18T17:31:18.529890+00:00"
+      "last_updated": "2026-11-18T23:33:49.208430+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-18T17:31:19.123989+00:00"
+      "last_updated": "2026-11-18T23:33:49.636898+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-18T17:31:19.505479+00:00"
+      "last_updated": "2026-11-18T23:33:49.766684+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-18T17:31:19.789296+00:00"
+      "last_updated": "2026-11-18T23:33:50.009703+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 428002,
+      "total": 428178,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-18T17:31:19.919483+00:00",
+      "last_updated": "2026-11-18T23:33:50.091279+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-18T17:31:19.919543+00:00"
+      "last_updated": "2026-11-18T23:33:50.091344+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-18T17:31:19.919548+00:00"
+      "last_updated": "2026-11-18T23:33:50.091349+00:00"
     }
   }
 }
