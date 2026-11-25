@@ -1,11 +1,41 @@
 {
-  "generated_at": "2026-11-24T16:22:10.047466+00:00",
+  "generated_at": "2026-11-25T00:55:15.300942+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1792,
+      "count": 1795,
       "items": [
+        {
+          "id": "CVE-2026-132224",
+          "vendor": "Optimizely",
+          "product": "Web Experimentation",
+          "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+          "date_added": "2026-11-24",
+          "due_date": "2026-11-27",
+          "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-131914",
+          "vendor": "Idunno",
+          "product": "AntiCsrf",
+          "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+          "date_added": "2026-11-24",
+          "due_date": "2026-11-27",
+          "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). ",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-132165",
+          "vendor": "Drupal",
+          "product": "Core",
+          "name": "Drupal Core Remote Code Execution Vulnerability",
+          "date_added": "2026-11-24",
+          "due_date": "2026-11-27",
+          "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to at",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-133968",
           "vendor": "Project MONAI",
@@ -225,39 +255,9 @@
           "due_date": "2026-11-12",
           "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-123218",
-          "vendor": "IBM",
-          "product": "Aspera Faspex",
-          "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
-          "date_added": "2026-11-09",
-          "due_date": "2026-11-12",
-          "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-19868",
-          "vendor": "SonicWall",
-          "product": "SonicOS SSLVPN",
-          "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-          "date_added": "2026-11-06",
-          "due_date": "2026-11-20",
-          "description": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass ",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2024-27834",
-          "vendor": "Apple",
-          "product": "Multiple Products",
-          "name": "Apple Multiple Products Improper Authentication Vulnerability",
-          "date_added": "2026-11-04",
-          "due_date": "2026-11-18",
-          "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-24T16:22:10.340261+00:00",
+      "last_updated": "2026-11-25T00:55:15.490340+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-24T16:22:10.658690+00:00"
+      "last_updated": "2026-11-25T00:55:15.936772+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-24T16:22:11.098453+00:00"
+      "last_updated": "2026-11-25T00:55:16.339238+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-24T16:22:11.320456+00:00"
+      "last_updated": "2026-11-25T00:55:16.568885+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-24T16:22:11.393972+00:00"
+      "last_updated": "2026-11-25T00:55:16.781998+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 431404,
+      "total": 431850,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-24T16:22:11.700134+00:00",
+      "last_updated": "2026-11-25T00:55:16.954236+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-24T16:22:11.700217+00:00"
+      "last_updated": "2026-11-25T00:55:16.954283+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-24T16:22:11.700222+00:00"
+      "last_updated": "2026-11-25T00:55:16.954287+00:00"
     }
   }
 }
