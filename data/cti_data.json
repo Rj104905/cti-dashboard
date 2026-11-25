@@ -1,11 +1,21 @@
 {
-  "generated_at": "2026-11-25T09:19:58.061531+00:00",
+  "generated_at": "2026-11-25T19:28:08.569483+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1795,
+      "count": 1796,
       "items": [
+        {
+          "id": "CVE-2026-103406",
+          "vendor": "Hewlett Packard Enterprise (HPE)",
+          "product": "Juniper Session Smart Conductor and Session Smart Router",
+          "name": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
         {
           "id": "CVE-2026-132224",
           "vendor": "Optimizely",
@@ -245,19 +255,9 @@
           "due_date": "2026-11-12",
           "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-116779",
-          "vendor": "SignalWire",
-          "product": "FreeSwitch",
-          "name": "SignalWire FreeSwitch Code Injection Vulnerability",
-          "date_added": "2026-11-09",
-          "due_date": "2026-11-12",
-          "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-25T09:19:58.166724+00:00",
+      "last_updated": "2026-11-25T19:28:08.689299+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-25T09:19:58.807076+00:00"
+      "last_updated": "2026-11-25T19:28:09.221231+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-25T09:19:59.272217+00:00"
+      "last_updated": "2026-11-25T19:28:09.722628+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-25T09:19:59.793478+00:00"
+      "last_updated": "2026-11-25T19:28:10.572964+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-25T09:20:00.030431+00:00"
+      "last_updated": "2026-11-25T19:28:10.787323+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 432039,
+      "total": 432334,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-25T09:20:00.273333+00:00",
+      "last_updated": "2026-11-25T19:28:11.281733+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-25T09:20:00.273410+00:00"
+      "last_updated": "2026-11-25T19:28:11.281803+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-25T09:20:00.273415+00:00"
+      "last_updated": "2026-11-25T19:28:11.281808+00:00"
     }
   }
 }
