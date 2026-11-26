@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T19:28:08.569483+00:00",
+  "generated_at": "2026-11-26T02:20:25.326180+00:00",
   "sources": {
     "cisa_kev": {
       "source": "CISA KEV",
       "description": "Known Exploited Vulnerabilities Catalog",
-      "count": 1796,
+      "count": 1805,
       "items": [
         {
           "id": "CVE-2026-103406",
@@ -14,6 +14,96 @@
           "date_added": "2026-11-25",
           "due_date": "2026-11-28",
           "description": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-133469",
+          "vendor": "Vates",
+          "product": "Xen Orchestra",
+          "name": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authenticati",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2025-41450",
+          "vendor": "Danfoss",
+          "product": "AK-SM 800A Series",
+          "name": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-12-09",
+          "description": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2023-25914",
+          "vendor": "Danfoss",
+          "product": "AK-SM 800A Series",
+          "name": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2023-25915",
+          "vendor": "Danfoss",
+          "product": "AK-SM 800A Series",
+          "name": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-133324",
+          "vendor": "Mitel",
+          "product": "MiCollab",
+          "name": "Mitel MiCollab Not Failing Securely Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-133275",
+          "vendor": "Mitel",
+          "product": "MiCollab",
+          "name": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrar",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-133311",
+          "vendor": "Mitel",
+          "product": "MiCollab",
+          "name": "Mitel MiCollab Weak Authentication Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-12-09",
+          "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or p",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-133303",
+          "vendor": "Mitel",
+          "product": "MiCollab",
+          "name": "Mitel MiCollab XML Injection Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
+        },
+        {
+          "id": "CVE-2026-133323",
+          "vendor": "Mitel",
+          "product": "MiCollab",
+          "name": "Mitel MiCollab OS Command Injection Vulnerability",
+          "date_added": "2026-11-25",
+          "due_date": "2026-11-28",
+          "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitr",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         },
         {
@@ -165,99 +255,9 @@
           "due_date": "2026-11-16",
           "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
           "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-123039",
-          "vendor": "Check Point",
-          "product": "Multiple Products",
-          "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-          "date_added": "2026-11-13",
-          "due_date": "2026-11-16",
-          "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon ru",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-124194",
-          "vendor": "Microsoft",
-          "product": "Office",
-          "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-          "date_added": "2026-11-10",
-          "due_date": "2026-11-24",
-          "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-111793",
-          "vendor": "Openwave Messaging Limited",
-          "product": "Webtop Media Transcoder",
-          "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
-          "date_added": "2026-11-10",
-          "due_date": "2026-11-24",
-          "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-20320",
-          "vendor": "Cisco",
-          "product": "BroadWorks",
-          "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-          "date_added": "2026-11-10",
-          "due_date": "2026-11-24",
-          "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-111560",
-          "vendor": "Barracuda Networks",
-          "product": "Multiple Products",
-          "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-          "date_added": "2026-11-10",
-          "due_date": "2026-11-13",
-          "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vu",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-116606",
-          "vendor": "Barracuda Networks",
-          "product": "Barracuda Email Security Gateway (ESG)",
-          "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-          "date_added": "2026-11-10",
-          "due_date": "2026-11-13",
-          "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backu",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-125350",
-          "vendor": "Google",
-          "product": "Chromium",
-          "name": "Google Chromium Use-After-Free Vulnerability",
-          "date_added": "2026-11-10",
-          "due_date": "2026-11-24",
-          "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that u",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-102895",
-          "vendor": "GPUStack",
-          "product": "GPUStack",
-          "name": "GPUStack Improper Authentication Vulnerability",
-          "date_added": "2026-11-09",
-          "due_date": "2026-11-12",
-          "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
-        },
-        {
-          "id": "CVE-2026-123158",
-          "vendor": "OpenBSD",
-          "product": "OpenSSH",
-          "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-          "date_added": "2026-11-09",
-          "due_date": "2026-11-12",
-          "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-          "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage"
         }
       ],
-      "last_updated": "2026-11-25T19:28:08.689299+00:00",
+      "last_updated": "2026-11-26T02:20:25.573255+00:00",
       "status": "ok"
     },
     "urlhaus": {
@@ -265,33 +265,33 @@
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://urlhaus-api.abuse.ch/v1/urls/recent/",
       "items": [],
-      "last_updated": "2026-11-25T19:28:09.221231+00:00"
+      "last_updated": "2026-11-26T02:20:26.100764+00:00"
     },
     "malwarebazaar": {
       "source": "MalwareBazaar",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://mb-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-25T19:28:09.722628+00:00"
+      "last_updated": "2026-11-26T02:20:26.608072+00:00"
     },
     "threatfox": {
       "source": "ThreatFox",
       "status": "error",
       "error": "401 Client Error: Unauthorized for url: https://threatfox-api.abuse.ch/api/v1/",
       "items": [],
-      "last_updated": "2026-11-25T19:28:10.572964+00:00"
+      "last_updated": "2026-11-26T02:20:26.824582+00:00"
     },
     "feodo": {
       "source": "Feodo Tracker",
       "status": "error",
       "error": "404 Client Error: Not Found for url: https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.json",
       "items": [],
-      "last_updated": "2026-11-25T19:28:10.787323+00:00"
+      "last_updated": "2026-11-26T02:20:26.995288+00:00"
     },
     "nvd": {
       "source": "NVD CVE",
       "description": "National Vulnerability Database (NIST)",
-      "total": 432334,
+      "total": 432528,
       "items": [
         {
           "id": "CVE-1999-0095",
@@ -474,7 +474,7 @@
           "vector": ""
         }
       ],
-      "last_updated": "2026-11-25T19:28:11.281733+00:00",
+      "last_updated": "2026-11-26T02:20:27.138783+00:00",
       "status": "ok"
     },
     "otx": {
@@ -482,14 +482,14 @@
       "status": "skipped",
       "reason": "Add OTX_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-25T19:28:11.281803+00:00"
+      "last_updated": "2026-11-26T02:20:27.138860+00:00"
     },
     "virustotal": {
       "source": "VirusTotal",
       "status": "skipped",
       "reason": "Add VT_API_KEY to GitHub Secrets to enable",
       "items": [],
-      "last_updated": "2026-11-25T19:28:11.281808+00:00"
+      "last_updated": "2026-11-26T02:20:27.138866+00:00"
     }
   }
 }
